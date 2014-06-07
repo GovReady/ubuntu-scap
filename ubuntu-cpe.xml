@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cpe-list xmlns="http://cpe.mitre.org/dictionary/2.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://cpe.mitre.org/dictionary/2.0 http://cpe.mitre.org/files/cpe-dictionary_2.1.xsd">
+  <cpe-item name="cpe:/o:ubuntu-trusty:linux">
+    <title>Ubuntu Linux 14.04 (trusty)</title>
+    <notes>
+      <note>This CPE Name represents Ubuntu Linux 14.04 (trusty)</note>
+    </notes>
+    <check system="http://open-scap.org/page/SCE" href="ubuntu-cpe-oval.xml" >oval:ubuntu:def:is_ubuntu</check>
+  </cpe-item>
+</cpe-list>
