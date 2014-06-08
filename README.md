@@ -7,8 +7,8 @@ Security Content Automation Protocol (SCAP) is a set of standards for automated 
 
 This project contains:
 
-* `ubuntu-xccdf.xml`: An Ubuntu SCAP profile listing tests to run.
-* `ssg-rhel6-oval.xml`: Test definitions from the [scap-security-guide](https://fedorahosted.org/scap-security-guide/) project for testing Red Hat Enterprise Linux 6, as of 2014-06-06.
+* `ubuntu-xccdf.xml`: An Ubuntu profile listing tests to run, in [XCCDF 1.2](http://scap.nist.gov/specifications/xccdf/xccdf_element_dictionary.html) format. This is the main file.
+* `ssg-rhel6-oval.xml`: Test definitions from the [scap-security-guide](https://fedorahosted.org/scap-security-guide/) project for testing Red Hat Enterprise Linux 6, as of 2014-06-06, some of which also apply to Ubuntu.
 * `run_tests.sh`: An example for calling [OpenSCAP](http://open-scap.org/page/Main_Page) to run the tests.
 * `ubuntu-cpe.xml` and `ubuntu-cpe-oval.xml` which define "Ubuntu" for the purposes of the test profiles.
 
