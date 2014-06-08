@@ -12,12 +12,21 @@ This project contains:
 * `run_tests.sh`: An example for calling [OpenSCAP](http://open-scap.org/page/Main_Page) to run the tests.
 * `ubuntu-cpe.xml` and `ubuntu-cpe-oval.xml` which define "Ubuntu" for the purposes of the test profiles.
 
+Installing
+----------
+To install ubuntu-scap on a ubuntu Linux machine:
+
+	sudo apt-get install libopenscap8
+	git clone https://github.com/GovReady/ubuntu-scap.git
+	cd ubuntu-scap
+
 Running Tests
 -------------
 
 To run these tests on a machine:
 
-	sudo apt-get install libopenscap8
+	# Start in ubuntu-scap directory
+	cd /path/to/ubuntu-scap
 	./run_tests.sh
 
 Project Development
