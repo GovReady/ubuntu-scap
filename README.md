@@ -29,6 +29,16 @@ To run these tests on a machine:
 	cd /path/to/ubuntu-scap
 	./run_tests.sh
 
+Reading Results
+---------------
+Results are generated in xml and optionally html reports.
+
+Install lynx browser to read html reports from command line:
+
+	sudo apt-get install lynx
+	# read report
+	lynx report-name.html
+
 Project Development
 -------------------
 
