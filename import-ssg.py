@@ -1,7 +1,7 @@
 import lxml.etree
 
 xccdf = lxml.etree.parse("ubuntu-xccdf.xml")
-ssg = lxml.etree.parse("externals/scap-security-guide/RHEL/6/output/ssg-rhel6-xccdf-1.2.xml", lxml.etree.XMLParser(remove_blank_text=True))
+ssg = lxml.etree.parse("externals/scap-security-guide/RHEL/6/output/ssg-rhel6-xccdf-1.2.xml")
 
 # Look for all mentioned rules.
 rules = set()
