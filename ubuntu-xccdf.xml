@@ -37,36 +37,20 @@
     <select idref="xccdf_org.ssgproject.content_rule_accounts_umask_login_defs" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_bootloader_password" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_deactivate_wireless_interfaces" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_avahi" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_dhcp_client" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_dhcp_server" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_dns_server" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_dovecot" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_host_auth" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_httpd" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_interactive_boot" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_rexec" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_rlogin" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_rsh" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_smb_server" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_snmpd" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_squid" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_telnet_service" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_tftp" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_users_coredumps" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_vsftpd" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_xinetd" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_xwindows_with_runlevel" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_ypbind" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_enable_auditd_bootloader" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_enable_gdm_login_banner" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_enable_screensaver_after_idle" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_enable_screensaver_password_lock" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_enable_selinux_bootloader" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_ensure_gpgcheck_globally_activated" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_ensure_gpgcheck_never_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_ensure_logrotate_activated" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_ensure_redhat_gpgkey_installed" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_group" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_gshadow" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_passwd" selected="true"/>
@@ -123,12 +107,6 @@
     <select idref="xccdf_org.ssgproject.content_rule_no_unpackaged_sgid_files" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_no_unpackaged_suid_files" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_ntpd_specify_remote_server" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_package_aide_installed" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_package_openldap-servers_removed" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_package_rsyslog_installed" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_package_screen_installed" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_package_sendmail_removed" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_packagegroup_xwindows_remove" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_partition_for_home" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_partition_for_tmp" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_partition_for_var" selected="true"/>
@@ -142,13 +120,10 @@
     <select idref="xccdf_org.ssgproject.content_rule_restrict_serial_port_logins" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_root_path_no_dot" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_root_path_no_groupother_writable" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_rpm_verify_hashes" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_rpm_verify_permissions" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_rsyslog_accept_remote_messages_none" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_rsyslog_file_permissions" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_rsyslog_send_messages_to_logserver" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_securetty_root_login_console_only" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_security_patches_up_to_date" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_set_blank_screensaver" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_set_iptables_default_rule" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_set_iptables_default_rule_forward" selected="true"/>
@@ -231,12 +206,32 @@
     <select idref="xccdf_org.ssgproject.content_rule_configure_auditd_max_log_file" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_configure_auditd_max_log_file_action" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_configure_auditd_num_logs" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_avahi" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_dhcp_client" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_dhcp_server" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_dns_server" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_dovecot" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_httpd" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_smb_server" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_snmpd" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_squid" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_tftp" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_vsftpd" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_xinetd" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_ypbind" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_enable_auditd_bootloader" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_enable_selinux_bootloader" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_ensure_gpgcheck_globally_activated" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_ensure_gpgcheck_never_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_ensure_redhat_gpgkey_installed" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_package_aide_installed" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_package_openldap-servers_removed" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_package_rsyslog_installed" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_package_screen_installed" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_package_sendmail_removed" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_packagegroup_xwindows_remove" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_rpm_verify_hashes" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_rpm_verify_permissions" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_security_patches_up_to_date" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_selinux_all_devicefiles_labeled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_selinux_confinement_of_daemons" selected="true"/>
@@ -277,7 +272,6 @@
     <select idref="xccdf_org.ssgproject.content_rule_uninstall_xinetd" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_uninstall_ypserv" selected="true"/>
     -->
-
 
     <refine-value idref="xccdf_org.ssgproject.content_value_file_groupowner_logfiles_value" selector="root"/>
     <refine-value idref="xccdf_org.ssgproject.content_value_file_owner_logfiles_value" selector="root"/>
@@ -530,322 +524,7 @@ users cannot trivially fill partitions used for log or audit data storage.
           </check>
         </Rule>
         </Group>
-      <Group id="xccdf_org.ssgproject.content_group_updating">
-        <title xml:lang="en-US">Updating Software</title>
-        <description xml:lang="en-US">The <h:code>yum</h:code> command line tool is used to install and
-update software packages. The system also provides a graphical
-software update tool in the <h:b>System</h:b> menu, in the <h:b>Administration</h:b> submenu,
-called <h:b>Software Update</h:b>.
-<h:br/><h:br/>
-Red Hat Enterprise Linux systems contain an installed software catalog called
-the RPM database, which records metadata of installed packages. Consistently using
-<h:code>yum</h:code> or the graphical <h:b>Software Update</h:b> for all software installation
-allows for insight into the current inventory of installed software on the system.
-</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_ensure_redhat_gpgkey_installed" selected="false" severity="high">
-          <title xml:lang="en-US">Ensure Red Hat GPG Key Installed</title>
-          <description xml:lang="en-US">
-To ensure the system can cryptographically verify base software
-packages come from Red Hat (and to connect to the Red Hat Network to
-receive them), the Red Hat GPG key must properly be installed.  
-To install the Red Hat GPG key, run:
-<h:pre># rhn_register</h:pre>
-If the system is not connected to the Internet or an RHN Satellite,
-then install the Red Hat GPG key from trusted media such as
-the Red Hat installation CD-ROM or DVD. Assuming the disc is mounted
-in <h:code>/media/cdrom</h:code>, use the following command as the root user to import
-it into the keyring:
-<h:pre># rpm --import /media/cdrom/RPM-GPG-KEY</h:pre>
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">SI-7</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">MA-1(b)</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">351</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">MM</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20120928</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-The Red Hat GPG key is necessary to cryptographically verify packages
-are from Red Hat.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26506-6</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:789" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the Red Hat GPG Key is not installed" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To ensure that the GPG key is installed, run:
-<h:pre>$ rpm -q --queryformat "%{SUMMARY}\n" gpg-pubkey</h:pre>
-The command should return the string below:
-<h:pre>gpg(Red Hat, Inc. (release key 2)  &lt;security@redhat.com&gt;</h:pre>
-</check-content>
-          </check>
-        </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_ensure_gpgcheck_globally_activated" selected="false" severity="high">
-          <title xml:lang="en-US">Ensure gpgcheck Enabled In Main Yum Configuration</title>
-          <description xml:lang="en-US">The <h:code>gpgcheck</h:code> option controls whether
-RPM packages' signatures are always checked prior to installation.
-To configure yum to check package signatures before installing
-them, ensure the following line appears in <h:code>/etc/yum.conf</h:code> in
-the <h:code>[main]</h:code> section:
-<h:pre>gpgcheck=1</h:pre>
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">SI-7</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">MA-1(b)</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">352</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">663</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">MM</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20120928</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-Ensuring the validity of packages' cryptographic signatures prior to
-installation ensures the authenticity of the software and
-protects against malicious tampering.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26709-6</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:481" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="GPG checking is not enabled" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To determine whether <h:code>yum</h:code> is configured to use <h:code>gpgcheck</h:code>,
-inspect <h:code>/etc/yum.conf</h:code> and ensure the following appears in the
-<h:code>[main]</h:code> section:
-<h:pre>gpgcheck=1</h:pre>
-A value of <h:code>1</h:code> indicates that <h:code>gpgcheck</h:code> is enabled. Absence of a
-<h:code>gpgcheck</h:code> line or a setting of <h:code>0</h:code> indicates that it is
-disabled.
-</check-content>
-          </check>
-        </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_ensure_gpgcheck_never_disabled" selected="false" severity="high">
-          <title xml:lang="en-US">Ensure gpgcheck Enabled For All Yum Package Repositories</title>
-          <description xml:lang="en-US">To ensure signature checking is not disabled for
-any repos, remove any lines from files in <h:code>/etc/yum.repos.d</h:code> of the form:
-<h:pre>gpgcheck=0</h:pre>
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">SI-7</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">MA-1(b)</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">352</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">663</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">MM</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20120928</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-Ensuring all packages' cryptographic signatures are valid prior to
-installation ensures the authenticity of the software and
-protects against malicious tampering.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26647-8</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:182" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="GPG checking is disabled" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To determine whether <h:code>yum</h:code> has been configured to disable
-<h:code>gpgcheck</h:code> for any repos,  inspect all files in
-<h:code>/etc/yum.repos.d</h:code> and ensure the following does not appear in any
-sections:
-<h:pre>gpgcheck=0</h:pre>
-A value of <h:code>0</h:code> indicates that <h:code>gpgcheck</h:code> has been disabled for that repo. 
-</check-content>
-          </check>
-        </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_security_patches_up_to_date" selected="false" severity="high">
-          <title xml:lang="en-US">Ensure Software Patches Installed</title>
-          <description xml:lang="en-US">If the system is joined to the Red Hat Network, a Red Hat Satellite Server,
-or a yum server, run the following command to install updates:
-<h:pre># yum update</h:pre>
-If the system is not configured to use one of these sources, updates (in the form of RPM packages)
-can be manually downloaded from the Red Hat Network and installed using <h:code>rpm</h:code>.
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">SI-2</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">MA-1(b)</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1227</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1233</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">MM</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20120928</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-Installing software updates is a fundamental mitigation against
-the exploitation of publicly-known vulnerabilities.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-27635-2</ident>
-          <check system="ocil-transitional">
-            <check-export export-name="updates are not installed" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-If the system is joined to the Red Hat Network, a Red Hat Satellite Server, or
-a yum server which provides updates, invoking the following command will
-indicate if updates are available:
-<h:pre># yum check-update</h:pre>
-If the system is not configured to update from one of these sources,
-run the following command to list when each package was last updated:
-<h:pre>$ rpm -qa -last</h:pre>
-Compare this to Red Hat Security Advisories (RHSA) listed at 
-https://access.redhat.com/security/updates/active/
-to determine if the system is missing applicable updates.
-</check-content>
-          </check>
-        </Rule>
       </Group>
-      <Group id="xccdf_org.ssgproject.content_group_integrity">
-        <title xml:lang="en-US">Software Integrity Checking</title>
-        <description xml:lang="en-US">
-Both the AIDE (Advanced Intrusion Detection Environment)
-software and the RPM package management system provide
-mechanisms for verifying the integrity of installed software.
-AIDE uses snapshots of file metadata (such as hashes) and compares these
-to current system files in order to detect changes.
-The RPM package management system can conduct integrity
-checks by comparing information in its metadata database with
-files installed on the system.
-<h:br/><h:br/>
-Integrity checking cannot <h:i>prevent</h:i> intrusions,
-but can detect that they have occurred. Requirements
-for software integrity checking may be highly dependent on
-the environment in which the system will be used. Snapshot-based
-approaches such as AIDE may induce considerable overhead
-in the presence of frequent software updates.
-</description>
-        <Group id="xccdf_org.ssgproject.content_group_aide">
-          <title xml:lang="en-US">Verify Integrity with AIDE</title>
-          <description xml:lang="en-US">AIDE conducts integrity checks by comparing information about
-files with previously-gathered information. Ideally, the AIDE database is
-created immediately after initial system configuration, and then again after any
-software update.  AIDE is highly configurable, with further configuration
-information located in <h:code>/usr/share/doc/aide-<h:i>VERSION</h:i></h:code>.
-</description>
-          <Rule id="xccdf_org.ssgproject.content_rule_package_aide_installed" selected="false" severity="medium">
-            <title xml:lang="en-US">Install AIDE</title>
-            <description xml:lang="en-US">
-Install the AIDE package with the command:
-<h:pre># yum install aide</h:pre>
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-3(d)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-3(e)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-6(d)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-6(3)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">SC-28</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">SI-7</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">1069</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">
-The AIDE package must be installed if it is to be available for integrity checking.
-</rationale>
-            <ident system="http://cce.mitre.org">CCE-27024-9</ident>
-            <fix system="urn:xccdf:fix:script:sh">yum -y install aide
-</fix>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:909" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="the package is not installed" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-              
-    Run the following command to determine if the <h:code>aide</h:code> package is installed:
-    <h:pre># rpm -q aide</h:pre>
-            </check-content>
-            </check>
-          </Rule>
-          </Group>
-        <Group id="xccdf_org.ssgproject.content_group_rpm_verification">
-          <title xml:lang="en-US">Verify Integrity with RPM</title>
-          <description xml:lang="en-US">The RPM package management system includes the ability
-to verify the integrity of installed packages by comparing the
-installed files with information about the files taken from the
-package metadata stored in the RPM database. Although an attacker
-could corrupt the RPM database (analogous to attacking the AIDE
-database as described above), this check can still reveal
-modification of important files. To list which files on the system differ from what is expected by the RPM database:
-<h:pre># rpm -qVa</h:pre>
-See the man page for <h:code>rpm</h:code> to see a complete explanation of each column.
-</description>
-          <Rule id="xccdf_org.ssgproject.content_rule_rpm_verify_permissions" selected="false" severity="low">
-            <title xml:lang="en-US">Verify and Correct File Permissions with RPM</title>
-            <description xml:lang="en-US">
-The RPM package management system can check file access
-permissions of installed software packages, including many that are
-important to system security. 
-After locating a file with incorrect permissions, run the following command to determine which package owns it:
-<h:pre># rpm -qf <h:i>FILENAME</h:i></h:pre>
-Next, run the following command to reset its permissions to 
-the correct values:
-<h:pre># rpm --setperms <h:i>PACKAGENAME</h:i></h:pre>
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-6</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-6(d)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-6(3)</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">1493</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">1494</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">1495</reference>
-            <rationale xml:lang="en-US">
-Permissions on system binaries and configuration files that are too generous
-could allow an unauthorized user to gain privileges that they should not have.
-The permissions set by the vendor should be maintained. Any deviations from
-this baseline should be investigated.</rationale>
-            <ident system="http://cce.mitre.org">CCE-26731-0</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:355" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="there is output" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-The following command will list which files on the system have permissions different from what
-is expected by the RPM database:
-<h:pre># rpm -Va | grep '^.M'</h:pre>
-</check-content>
-            </check>
-          </Rule>
-          <Rule id="xccdf_org.ssgproject.content_rule_rpm_verify_hashes" selected="false" severity="low">
-            <title xml:lang="en-US">Verify File Hashes with RPM</title>
-            <description xml:lang="en-US">The RPM package management system can check the hashes of
-installed software packages, including many that are important to system
-security. Run the following command to list which files on the system
-have hashes that differ from what is expected by the RPM database:
-<h:pre># rpm -Va | grep '^..5'</h:pre>
-A "c" in the second column indicates that a file is a configuration file, which
-may appropriately be expected to change.  If the file was not expected to
-change, investigate the cause of the change using audit logs or other means.
-The package can then be reinstalled to restore the file.
-Run the following command to determine which package owns the file:
-<h:pre># rpm -qf <h:i>FILENAME</h:i></h:pre>
-The package can be reinstalled from a yum repository using the command:
-<h:pre>yum reinstall <h:i>PACKAGENAME</h:i></h:pre>
-Alternatively, the package can be reinstalled from trusted media using the command:
-<h:pre>rpm -Uvh <h:i>PACKAGENAME</h:i></h:pre> 
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-6(d)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-6(3)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">SI-7</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">1496</reference>
-            <rationale xml:lang="en-US">
-The hashes of important files like system executables should match the
-information given by the RPM database. Executables with erroneous hashes could
-be a sign of nefarious activity on the system.</rationale>
-            <ident system="http://cce.mitre.org">CCE-27223-7</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:662" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="there is output" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content> The following command will list which files on the system 
-have file hashes different from what is expected by the RPM database. 
-<h:pre># rpm -Va | awk '$1 ~ /..5/ &amp;&amp; $2 != "c"'</h:pre> 
-</check-content>
-            </check>
-          </Rule>
-        </Group>
-        </Group>
-    </Group>
     <Group id="xccdf_org.ssgproject.content_group_permissions">
       <title xml:lang="en-US">File Permissions and Masks</title>
       <description xml:lang="en-US">Traditional Unix security relies heavily on file and
@@ -4455,47 +4134,6 @@ If properly configured, the output should be <h:code>blank-only</h:code>
               </check>
             </Rule>
           </Group>
-          <Group id="xccdf_org.ssgproject.content_group_console_screen_locking">
-            <title xml:lang="en-US">Configure Console Screen Locking</title>
-            <description xml:lang="en-US">
-A console screen locking mechanism is provided in the
-<h:code>screen</h:code> package, which is not installed by default.
-</description>
-            <Rule id="xccdf_org.ssgproject.content_rule_package_screen_installed" selected="false" severity="low">
-              <title xml:lang="en-US">Install the screen Package</title>
-              <description xml:lang="en-US">
-To enable console screen locking, install the <h:code>screen</h:code> package:
-<h:pre># yum install screen</h:pre>
-Instruct users to begin new terminal sessions with the following command:
-<h:pre>$ screen</h:pre>
-The console can now be locked with the following key combination:
-<h:pre>ctrl+a x</h:pre>
-</description>
-              <reference href="http://iase.disa.mil/cci/index.html">58</reference>
-              <reference href="test_attestation">
-                <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-                <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-              </reference>
-              <rationale xml:lang="en-US">
-Installing <h:code>screen</h:code> ensures a console locking capability is available
-for users who may need to suspend console logins.
-</rationale>
-              <ident system="http://cce.mitre.org">CCE-26940-7</ident>
-              <fix system="urn:xccdf:fix:script:sh">yum -y install screen
-</fix>
-              <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-                <check-content-ref name="oval:ssg:def:1016" href="ssg-rhel6-oval.xml"/>
-              </check>
-              <check system="ocil-transitional">
-                <check-export export-name="the package is not installed" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-                <check-content>
-                
-    Run the following command to determine if the <h:code>screen</h:code> package is installed:
-    <h:pre># rpm -q screen</h:pre>
-              </check-content>
-              </check>
-            </Rule>
-          </Group>
           </Group>
       </Group>
       <Group id="xccdf_org.ssgproject.content_group_accounts-banners">
@@ -6268,40 +5906,6 @@ a central logging server.
 This section discusses how to configure rsyslog for
 best effect, and how to use tools provided with the system to maintain and
 monitor logs.</description>
-      <Rule id="xccdf_org.ssgproject.content_rule_package_rsyslog_installed" selected="false" severity="medium">
-        <title xml:lang="en-US">Ensure rsyslog is Installed</title>
-        <description xml:lang="en-US">
-Rsyslog is installed by default. 
-
-    The <h:code>rsyslog</h:code> package can be installed with the following command:
-    <h:pre># yum install rsyslog</h:pre>
-</description>
-        <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AU-9(2)</reference>
-        <reference href="http://iase.disa.mil/cci/index.html">1311</reference>
-        <reference href="http://iase.disa.mil/cci/index.html">1312</reference>
-        <reference href="test_attestation">
-          <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-          <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-        </reference>
-        <rationale xml:lang="en-US">
-The rsyslog package provides the rsyslog daemon, which provides
-system logging services.
-</rationale>
-        <ident system="http://cce.mitre.org">CCE-26809-4</ident>
-        <fix system="urn:xccdf:fix:script:sh">yum -y install rsyslog
-</fix>
-        <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-          <check-content-ref name="oval:ssg:def:202" href="ssg-rhel6-oval.xml"/>
-        </check>
-        <check system="ocil-transitional">
-          <check-export export-name="the package is not installed" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-          <check-content>
-          
-    Run the following command to determine if the <h:code>rsyslog</h:code> package is installed:
-    <h:pre># rpm -q rsyslog</h:pre>
-        </check-content>
-        </check>
-      </Rule>
       <Group id="xccdf_org.ssgproject.content_group_ensure_rsyslog_log_file_configuration">
         <title xml:lang="en-US">Ensure Proper Configuration of Log Files</title>
         <description xml:lang="en-US">
@@ -6807,58 +6411,6 @@ the service as much as possible, for instance by configuring host
 firewall software such as <h:code>iptables</h:code> to restrict access to the
 vulnerable service to only those remote hosts which have a known
 need to use it.</description>
-      <Group id="xccdf_org.ssgproject.content_group_inetd_and_xinetd">
-        <title xml:lang="en-US">Xinetd</title>
-        <description xml:lang="en-US">The <h:code>xinetd</h:code> service acts as a dedicated listener for some
-network services (mostly, obsolete ones) and can be used to provide access
-controls and perform some logging. It has been largely obsoleted by other
-features, and it is not installed by default. The older Inetd service
-is not even available as part of RHEL 6.</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_xinetd" selected="false" severity="medium">
-          <title xml:lang="en-US">Disable xinetd Service</title>
-          <description xml:lang="en-US">
-            
-    The <h:code>xinetd</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig xinetd off</h:pre>
-          </description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-17(8)</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">305</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-The xinetd service provides a dedicated listener service for some programs,
-which is no longer necessary for commonly-used network services. Disabling
-it ensures that these uncommon services are not running, and also prevents
-attacks against xinetd itself.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-27046-2</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:435" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-If network services are using the xinetd service, this is not applicable.
-<h:br/><h:br/>
-
-    To check that the <h:code>xinetd</h:code> service is disabled in system boot configuration, run the following command: 
-    <h:pre># chkconfig <h:code>xinetd</h:code> --list</h:pre>
-    Output should indicate the <h:code>xinetd</h:code> service has either not been installed, 
-    or has been disabled at all runlevels, as shown in the example below:
-    <h:pre># chkconfig <h:code>xinetd</h:code> --list
-<h:code>xinetd</h:code>       0:off   1:off   2:off   3:off   4:off   5:off   6:off</h:pre>
-
-    Run the following command to verify <h:code>xinetd</h:code> is disabled through current runtime configuration:
-    <h:pre># service xinetd status</h:pre>
-
-    If the service is disabled the command will return the following output:
-    <h:pre>xinetd is stopped</h:pre></check-content>
-          </check>
-        </Rule>
-        </Group>
       <Group id="xccdf_org.ssgproject.content_group_telnet">
         <title xml:lang="en-US">Telnet</title>
         <description xml:lang="en-US">The telnet protocol does not provide confidentiality or integrity
@@ -7062,110 +6614,7 @@ of an Rsh trust relationship.
           </check>
         </Rule>
       </Group>
-      <Group id="xccdf_org.ssgproject.content_group_nis">
-        <title xml:lang="en-US">NIS</title>
-        <description xml:lang="en-US">The Network Information Service (NIS), also known as 'Yellow
-Pages' (YP), and its successor NIS+ have been made obsolete by
-Kerberos, LDAP, and other modern centralized authentication
-services. NIS should not be used because it suffers from security
-problems inherent in its design, such as inadequate protection of
-important authentication information.</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_ypbind" selected="false" severity="medium">
-          <title xml:lang="en-US">Disable ypbind Service</title>
-          <description xml:lang="en-US">The <h:code>ypbind</h:code> service, which allows the system to act as a client in
-a NIS or NIS+ domain, should be disabled.
-
-    The <h:code>ypbind</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig ypbind off</h:pre>
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-17(8)</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">305</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-Disabling the <h:code>ypbind</h:code> service ensures the system is not acting
-as a client in a NIS or NIS+ domain.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26894-6</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:228" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-    To check that the <h:code>ypbind</h:code> service is disabled in system boot configuration, run the following command: 
-    <h:pre># chkconfig <h:code>ypbind</h:code> --list</h:pre>
-    Output should indicate the <h:code>ypbind</h:code> service has either not been installed, 
-    or has been disabled at all runlevels, as shown in the example below:
-    <h:pre># chkconfig <h:code>ypbind</h:code> --list
-<h:code>ypbind</h:code>       0:off   1:off   2:off   3:off   4:off   5:off   6:off</h:pre>
-
-    Run the following command to verify <h:code>ypbind</h:code> is disabled through current runtime configuration:
-    <h:pre># service ypbind status</h:pre>
-
-    If the service is disabled the command will return the following output:
-    <h:pre>ypbind is stopped</h:pre>
-          </check-content>
-          </check>
-        </Rule>
-        </Group>
-      <Group id="xccdf_org.ssgproject.content_group_tftp">
-        <title xml:lang="en-US">TFTP Server</title>
-        <description xml:lang="en-US">
-TFTP is a lightweight version of the FTP protocol which has
-traditionally been used to configure networking equipment. However,
-TFTP provides little security, and modern versions of networking
-operating systems frequently support configuration via SSH or other
-more secure protocols. A TFTP server should be run only if no more
-secure method of supporting existing equipment can be
-found.</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_tftp" selected="false" severity="medium">
-          <title xml:lang="en-US">Disable tftp Service</title>
-          <description xml:lang="en-US">The <h:code>tftp</h:code> service should be disabled.
-
-    The <h:code>tftp</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig tftp off</h:pre>
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-17(8)</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1436</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-Disabling the <h:code>tftp</h:code> service ensures the system is not acting
-as a TFTP server, which does not provide encryption or authentication.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-27055-3</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:246" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-    To check that the <h:code>tftp</h:code> service is disabled in system boot configuration, run the following command: 
-    <h:pre># chkconfig <h:code>tftp</h:code> --list</h:pre>
-    Output should indicate the <h:code>tftp</h:code> service has either not been installed, 
-    or has been disabled at all runlevels, as shown in the example below:
-    <h:pre># chkconfig <h:code>tftp</h:code> --list
-<h:code>tftp</h:code>       0:off   1:off   2:off   3:off   4:off   5:off   6:off</h:pre>
-
-    Run the following command to verify <h:code>tftp</h:code> is disabled through current runtime configuration:
-    <h:pre># service tftp status</h:pre>
-
-    If the service is disabled the command will return the following output:
-    <h:pre>tftp is stopped</h:pre>
-          </check-content>
-          </check>
-        </Rule>
-        </Group>
-    </Group>
+      </Group>
     <Group id="xccdf_org.ssgproject.content_group_ssh">
       <title xml:lang="en-US">SSH Server</title>
       <description xml:lang="en-US">The SSH protocol is recommended for remote login and
@@ -7657,206 +7106,8 @@ The output should show the following:
 </check-content>
           </check>
         </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_packagegroup_xwindows_remove" selected="false" severity="low">
-          <title xml:lang="en-US">Remove the X Windows Package Group</title>
-          <description xml:lang="en-US">Removing all packages which constitute the X Window System
-ensures users or malicious software cannot start X.
-To do so, run the following command:
-<h:pre># yum groupremove "X Window System"</h:pre>
-</description>
-          <reference href="http://iase.disa.mil/cci/index.html">366</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121025</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">Unnecessary packages should not be installed to decrease the attack surface of the system.</rationale>
-          <ident system="http://cce.mitre.org">CCE-27198-1</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:1119" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="it is not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To ensure the X Windows package group is removed, run the following command:
-<h:pre>$ rpm -qi xorg-x11-server-common</h:pre>
-The output should be:
-<h:pre>package xorg-x11-server-common is not installed</h:pre>
-</check-content>
-          </check>
-        </Rule>
-      </Group>
-    </Group>
-    <Group id="xccdf_org.ssgproject.content_group_avahi">
-      <title xml:lang="en-US">Avahi Server</title>
-      <description xml:lang="en-US">The Avahi daemon implements the DNS Service Discovery
-and Multicast DNS protocols, which provide service and host
-discovery on a network. It allows a system to automatically
-identify resources on the network, such as printers or web servers.
-This capability is also known as mDNSresponder and is a major part
-of Zeroconf networking. </description>
-      <Group id="xccdf_org.ssgproject.content_group_disable_avahi_group">
-        <title xml:lang="en-US">Disable Avahi Server if Possible</title>
-        <description xml:lang="en-US">Because the Avahi daemon service keeps an open network
-port, it is subject to network attacks.
-Disabling it can reduce the system's vulnerability to such attacks.
-</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_avahi" selected="false" severity="low">
-          <title xml:lang="en-US">Disable Avahi Server Software</title>
-          <description xml:lang="en-US">
-            
-    The <h:code>avahi-daemon</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig avahi-daemon off</h:pre>
-          </description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">366</reference>
-          <rationale xml:lang="en-US">
-Because the Avahi daemon service keeps an open network
-port, it is subject to network attacks. Its functionality
-is convenient but is only appropriate if the local network
-can be trusted.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-27087-6</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:1136" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-    To check that the <h:code>avahi-daemon</h:code> service is disabled in system boot configuration, run the following command: 
-    <h:pre># chkconfig <h:code>avahi-daemon</h:code> --list</h:pre>
-    Output should indicate the <h:code>avahi-daemon</h:code> service has either not been installed, 
-    or has been disabled at all runlevels, as shown in the example below:
-    <h:pre># chkconfig <h:code>avahi-daemon</h:code> --list
-<h:code>avahi-daemon</h:code>       0:off   1:off   2:off   3:off   4:off   5:off   6:off</h:pre>
-
-    Run the following command to verify <h:code>avahi-daemon</h:code> is disabled through current runtime configuration:
-    <h:pre># service avahi-daemon status</h:pre>
-
-    If the service is disabled the command will return the following output:
-    <h:pre>avahi-daemon is stopped</h:pre>
-          </check-content>
-          </check>
-        </Rule>
-      </Group>
-      </Group>
-    <Group id="xccdf_org.ssgproject.content_group_dhcp">
-      <title xml:lang="en-US">DHCP</title>
-      <description xml:lang="en-US">The Dynamic Host Configuration Protocol (DHCP) allows
-systems to request and obtain an IP address and other configuration
-parameters from a server.
-<h:br/><h:br/>
-This guide recommends configuring networking on clients by manually editing
-the appropriate files under <h:code>/etc/sysconfig</h:code>.  Use of DHCP can make client 
-systems vulnerable to compromise by rogue DHCP servers, and should be avoided 
-unless necessary.  If using DHCP is necessary, however, there are best practices 
-that should be followed to minimize security risk.
-</description>
-      <Group id="xccdf_org.ssgproject.content_group_disabling_dhcp_server">
-        <title xml:lang="en-US">Disable DHCP Server</title>
-        <description xml:lang="en-US">
-The DHCP server <h:code>dhcpd</h:code> is not installed or activated by
-default. If the software was installed and activated, but the
-system does not need to act as a DHCP server, it should be disabled
-and removed.
-</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_dhcp_server" selected="false" severity="medium">
-          <title xml:lang="en-US">Disable DHCP Service</title>
-          <description xml:lang="en-US">The <h:code>dhcpd</h:code> service should be disabled on
-any system that does not need to act as a DHCP server.
-
-    The <h:code>dhcpd</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig dhcpd off</h:pre>
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">366</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-Unmanaged or unintentionally activated DHCP servers may provide faulty information
-to clients, interfering with the operation of a legitimate site
-DHCP server if there is one.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-27074-4</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:936" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-    To check that the <h:code>dhcpd</h:code> service is disabled in system boot configuration, run the following command: 
-    <h:pre># chkconfig <h:code>dhcpd</h:code> --list</h:pre>
-    Output should indicate the <h:code>dhcpd</h:code> service has either not been installed, 
-    or has been disabled at all runlevels, as shown in the example below:
-    <h:pre># chkconfig <h:code>dhcpd</h:code> --list
-<h:code>dhcpd</h:code>       0:off   1:off   2:off   3:off   4:off   5:off   6:off</h:pre>
-
-    Run the following command to verify <h:code>dhcpd</h:code> is disabled through current runtime configuration:
-    <h:pre># service dhcpd status</h:pre>
-
-    If the service is disabled the command will return the following output:
-    <h:pre>dhcpd is stopped</h:pre>
-          </check-content>
-          </check>
-        </Rule>
         </Group>
-      <Group id="xccdf_org.ssgproject.content_group_disabling_dhcp_client">
-        <title xml:lang="en-US">Disable DHCP Client</title>
-        <description xml:lang="en-US">
-DHCP is the default network configuration method provided by the system
-installer, and common on many networks. Nevertheless, manual management
-of IP addresses for systems implies a greater degree of management and
-accountability for network activity.
-</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_dhcp_client" selected="false" severity="low">
-          <title xml:lang="en-US">Disable DHCP Client</title>
-          <description xml:lang="en-US">
-For each interface on the system (e.g. eth0), edit
-<h:code>/etc/sysconfig/network-scripts/ifcfg-<h:i>interface</h:i></h:code> and make the
-following changes:
-<h:ul><h:li> Correct the BOOTPROTO line to read:
-<h:pre>BOOTPROTO=none</h:pre>
-</h:li><h:li> Add or correct the following lines, substituting the appropriate
-values based on your site's addressing scheme:
-<h:pre>NETMASK=255.255.255.0
-IPADDR=192.168.1.2
-GATEWAY=192.168.1.1</h:pre>
-</h:li></h:ul>
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">366</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-DHCP relies on trusting the local network. If the local network is not trusted,
-then it should not be used.  However, the automatic configuration provided by
-DHCP is commonly used and the alternative, manual configuration, presents an
-unacceptable burden in many circumstances.</rationale>
-          <ident system="http://cce.mitre.org">CCE-27021-5</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:359" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To verify that DHCP is not being used, examine the following file for each interface:
-<h:pre># /etc/sysconfig/network-scripts/ifcfg-<h:i>interface</h:i></h:pre>
-Look for the following:
-<h:pre>BOOTPROTO=none</h:pre>
-and the following, substituting the appropriate values based on your site's addressing scheme:
-<h:pre>NETMASK=255.255.255.0
-IPADDR=192.168.1.2
-GATEWAY=192.168.1.1</h:pre>
-</check-content>
-          </check>
-        </Rule>
-      </Group>
-      </Group>
+    </Group>
     <Group id="xccdf_org.ssgproject.content_group_ntp">
       <title xml:lang="en-US">Network Time Protocol</title>
       <description xml:lang="en-US">The Network Time Protocol is used to manage the system
@@ -7946,36 +7197,6 @@ Postfix was coded with security in mind and can also be more effectively contain
 SELinux as its modular design has resulted in separate processes performing specific actions.
 More information is available on its website, http://www.postfix.org.
 </description>
-      <Rule id="xccdf_org.ssgproject.content_rule_package_sendmail_removed" selected="false" severity="medium">
-        <title xml:lang="en-US">Uninstall Sendmail Package</title>
-        <description xml:lang="en-US">Sendmail is not the default mail transfer agent and is
-not installed by default.
-
-    The <h:code>sendmail</h:code> package can be removed with the following command:
-    <h:pre># yum erase sendmail</h:pre>
-</description>
-        <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-        <reference href="test_attestation">
-          <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-          <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-        </reference>
-        <rationale xml:lang="en-US">The sendmail software was not developed with security in mind and
-its design prevents it from being effectively contained by SELinux.  Postfix
-should be used instead.  
-</rationale>
-        <ident system="http://cce.mitre.org">CCE-27515-6</ident>
-        <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-          <check-content-ref name="oval:ssg:def:979" href="ssg-rhel6-oval.xml"/>
-        </check>
-        <check system="ocil-transitional">
-          <check-export export-name="the package is installed" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-          <check-content>
-          
-    Run the following command to determine if the <h:code>sendmail</h:code> package is installed:
-    <h:pre># rpm -q sendmail</h:pre>
-        </check-content>
-        </check>
-      </Rule>
       <Group id="xccdf_org.ssgproject.content_group_postfix_client">
         <title xml:lang="en-US">Configure SMTP For Mail Clients</title>
         <description xml:lang="en-US">This section discusses settings for Postfix in a submission-only
@@ -8102,49 +7323,7 @@ To ensure TLS is configured with trust certificates, run the following command:
           </check>
         </Rule>
       </Group>
-      <Group id="xccdf_org.ssgproject.content_group_openldap_server">
-        <title xml:lang="en-US">Configure OpenLDAP Server</title>
-        <description xml:lang="en-US">This section details some security-relevant settings
-for an OpenLDAP server.  Installation and configuration of OpenLDAP on RHEL 6 is available at:
-https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Deployment_Guide/ch-Directory_Servers.html.
-</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_package_openldap-servers_removed" selected="false" severity="low">
-          <title xml:lang="en-US">Uninstall openldap-servers Package</title>
-          <description xml:lang="en-US">The <h:code>openldap-servers</h:code> package should be removed if not in use.
-Is this machine the OpenLDAP server? If not, remove the package.
-<h:pre># yum erase openldap-servers</h:pre>
-The openldap-servers RPM is not installed by default on RHEL 6
-machines. It is needed only by the OpenLDAP server, not by the
-clients which use LDAP for authentication. If the system is not
-intended for use as an LDAP Server it should be removed.
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">366</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">Unnecessary packages should not be installed to decrease the attack
-surface of the system.  While this software is clearly essential on an LDAP
-server, it is not necessary on typical desktop or workstation systems.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26858-1</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:500" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To verify the <h:code>openldap-servers</h:code> package is not installed, 
-run the following command:
-<h:pre>$ rpm -q openldap-servers</h:pre>
-The output should show the following:
-<h:pre>package openldap-servers is not installed</h:pre>
-</check-content>
-          </check>
-        </Rule>
-        </Group>
-    </Group>
+      </Group>
     <Group id="xccdf_org.ssgproject.content_group_nfs_and_rpc">
       <title xml:lang="en-US">NFS and RPC</title>
       <description xml:lang="en-US">The Network File System is a popular distributed filesystem for
@@ -8232,220 +7411,6 @@ not implemented.
         </Group>
       </Group>
       </Group>
-    <Group id="xccdf_org.ssgproject.content_group_dns">
-      <title xml:lang="en-US">DNS Server</title>
-      <description xml:lang="en-US">Most organizations have an operational need to run at
-least one nameserver. However, there are many common attacks
-involving DNS server software, and this server software should
-be disabled on any system
-on which it is not needed.</description>
-      <Group id="xccdf_org.ssgproject.content_group_disabling_dns_server">
-        <title xml:lang="en-US">Disable DNS Server</title>
-        <description xml:lang="en-US">
-DNS software should be disabled on any machine which does not
-need to be a nameserver. Note that the BIND DNS server software is
-not installed on RHEL 6 by default. The remainder of this section
-discusses secure configuration of machines which must be
-nameservers.
-</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_dns_server" selected="false" severity="low">
-          <title xml:lang="en-US">Disable DNS Server</title>
-          <description xml:lang="en-US">
-            
-    The <h:code>named</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig named off</h:pre>
-          </description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">366</reference>
-          <rationale xml:lang="en-US">
-All network services involve some risk of compromise due to
-implementation flaws and should be disabled if possible.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26873-0</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:411" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-    To check that the <h:code>named</h:code> service is disabled in system boot configuration, run the following command: 
-    <h:pre># chkconfig <h:code>named</h:code> --list</h:pre>
-    Output should indicate the <h:code>named</h:code> service has either not been installed, 
-    or has been disabled at all runlevels, as shown in the example below:
-    <h:pre># chkconfig <h:code>named</h:code> --list
-<h:code>named</h:code>       0:off   1:off   2:off   3:off   4:off   5:off   6:off</h:pre>
-
-    Run the following command to verify <h:code>named</h:code> is disabled through current runtime configuration:
-    <h:pre># service named status</h:pre>
-
-    If the service is disabled the command will return the following output:
-    <h:pre>named is stopped</h:pre>
-          </check-content>
-          </check>
-        </Rule>
-        </Group>
-      </Group>
-    <Group id="xccdf_org.ssgproject.content_group_ftp">
-      <title xml:lang="en-US">FTP Server</title>
-      <description xml:lang="en-US">FTP is a common method for allowing remote access to
-files. Like telnet, the FTP protocol is unencrypted, which means
-that passwords and other data transmitted during the session can be
-captured and that the session is vulnerable to hijacking.
-Therefore, running the FTP server software is not recommended.
-<h:br/><h:br/>
-However, there are some FTP server configurations which may
-be appropriate for some environments, particularly those which
-allow only read-only anonymous access as a means of downloading
-data available to the public.</description>
-      <Group id="xccdf_org.ssgproject.content_group_disabling_vsftpd">
-        <title xml:lang="en-US">Disable vsftpd if Possible</title>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_vsftpd" selected="false" severity="low">
-          <title xml:lang="en-US">Disable vsftpd Service</title>
-          <description xml:lang="en-US">
-            
-    The <h:code>vsftpd</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig vsftpd off</h:pre>
-          </description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1436</reference>
-          <rationale xml:lang="en-US">
-Running FTP server software provides a network-based avenue
-of attack, and should be disabled if not needed.
-Furthermore, the FTP protocol is unencrypted and creates
-a risk of compromising sensitive information.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26948-0</ident>
-          <fix system="urn:xccdf:fix:script:sh">if service vsftpd status &gt;/dev/null; then
-	service vsftpd stop
-fi
-</fix>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:962" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-    To check that the <h:code>vsftpd</h:code> service is disabled in system boot configuration, run the following command: 
-    <h:pre># chkconfig <h:code>vsftpd</h:code> --list</h:pre>
-    Output should indicate the <h:code>vsftpd</h:code> service has either not been installed, 
-    or has been disabled at all runlevels, as shown in the example below:
-    <h:pre># chkconfig <h:code>vsftpd</h:code> --list
-<h:code>vsftpd</h:code>       0:off   1:off   2:off   3:off   4:off   5:off   6:off</h:pre>
-
-    Run the following command to verify <h:code>vsftpd</h:code> is disabled through current runtime configuration:
-    <h:pre># service vsftpd status</h:pre>
-
-    If the service is disabled the command will return the following output:
-    <h:pre>vsftpd is stopped</h:pre>
-          </check-content>
-          </check>
-        </Rule>
-        </Group>
-      </Group>
-    <Group id="xccdf_org.ssgproject.content_group_http">
-      <title xml:lang="en-US">Web Server</title>
-      <description xml:lang="en-US">The web server is responsible for providing access to
-content via the HTTP protocol. Web servers represent a significant
-security risk because:
-<h:br/><h:br/>
-<h:ul><h:li>The HTTP port is commonly probed by malicious sources</h:li><h:li>Web server software is very complex, and includes a long
-history of vulnerabilities</h:li><h:li>The HTTP protocol is unencrypted and vulnerable to passive
-monitoring</h:li></h:ul>
-<h:br/><h:br/>
-The system's default web server software is Apache 2 and is
-provided in the RPM package <h:code>httpd</h:code>.</description>
-      <Group id="xccdf_org.ssgproject.content_group_disabling_httpd">
-        <title xml:lang="en-US">Disable Apache if Possible</title>
-        <description xml:lang="en-US">If Apache was installed and activated, but the system
-does not need to act as a web server, then it should be disabled
-and removed from the system.
-</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_httpd" selected="false" severity="low">
-          <title xml:lang="en-US">Disable httpd Service</title>
-          <description xml:lang="en-US">
-            
-    The <h:code>httpd</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig httpd off</h:pre>
-          </description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <rationale xml:lang="en-US">
-Running web server software provides a network-based avenue
-of attack, and should be disabled if not needed.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-27075-1</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:397" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-    To check that the <h:code>httpd</h:code> service is disabled in system boot configuration, run the following command: 
-    <h:pre># chkconfig <h:code>httpd</h:code> --list</h:pre>
-    Output should indicate the <h:code>httpd</h:code> service has either not been installed, 
-    or has been disabled at all runlevels, as shown in the example below:
-    <h:pre># chkconfig <h:code>httpd</h:code> --list
-<h:code>httpd</h:code>       0:off   1:off   2:off   3:off   4:off   5:off   6:off</h:pre>
-
-    Run the following command to verify <h:code>httpd</h:code> is disabled through current runtime configuration:
-    <h:pre># service httpd status</h:pre>
-
-    If the service is disabled the command will return the following output:
-    <h:pre>httpd is stopped</h:pre>
-          </check-content>
-          </check>
-        </Rule>
-        </Group>
-      </Group>
-    <Group id="xccdf_org.ssgproject.content_group_imap">
-      <title xml:lang="en-US">IMAP and POP3 Server</title>
-      <description xml:lang="en-US">Dovecot provides IMAP and POP3 services. It is not
-installed by default. The project page at http://www.dovecot.org
-contains more detailed information about Dovecot
-configuration.</description>
-      <Group id="xccdf_org.ssgproject.content_group_disabling_dovecot">
-        <title xml:lang="en-US">Disable Dovecot</title>
-        <description xml:lang="en-US">If the system does not need to operate as an IMAP or
-POP3 server, the dovecot software should be disabled and removed.
-</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_dovecot" selected="false" severity="low">
-          <title xml:lang="en-US">Disable Dovecot Service</title>
-          <description xml:lang="en-US">
-            
-    The <h:code>dovecot</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig dovecot off</h:pre>
-          </description>
-          <rationale xml:lang="en-US">
-Running an IMAP or POP3 server provides a network-based
-avenue of attack, and should be disabled if not needed.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26922-5</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:508" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-    To check that the <h:code>dovecot</h:code> service is disabled in system boot configuration, run the following command: 
-    <h:pre># chkconfig <h:code>dovecot</h:code> --list</h:pre>
-    Output should indicate the <h:code>dovecot</h:code> service has either not been installed, 
-    or has been disabled at all runlevels, as shown in the example below:
-    <h:pre># chkconfig <h:code>dovecot</h:code> --list
-<h:code>dovecot</h:code>       0:off   1:off   2:off   3:off   4:off   5:off   6:off</h:pre>
-
-    Run the following command to verify <h:code>dovecot</h:code> is disabled through current runtime configuration:
-    <h:pre># service dovecot status</h:pre>
-
-    If the service is disabled the command will return the following output:
-    <h:pre>dovecot is stopped</h:pre>
-          </check-content>
-          </check>
-        </Rule>
-        </Group>
-      </Group>
     <Group id="xccdf_org.ssgproject.content_group_smb">
       <title xml:lang="en-US">Samba(SMB) Microsoft Windows File Sharing Server</title>
       <description xml:lang="en-US">When properly configured, the Samba service allows
@@ -8458,50 +7423,6 @@ service. It is this second package that allows a Linux machine to
 act as an Active Directory server, a domain controller, or as a
 domain member. Only the <h:code>samba-client</h:code> package is installed by
 default.</description>
-      <Group id="xccdf_org.ssgproject.content_group_disabling_samba">
-        <title xml:lang="en-US">Disable Samba if Possible</title>
-        <description xml:lang="en-US">
-Even after the Samba server package has been installed, it
-will remain disabled. Do not enable this service unless it is
-absolutely necessary to provide Microsoft Windows file and print
-sharing functionality.
-</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_smb_server" selected="false" severity="low">
-          <title xml:lang="en-US">Disable Samba</title>
-          <description xml:lang="en-US">
-            
-    The <h:code>smb</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig smb off</h:pre>
-          </description>
-          <reference href="http://iase.disa.mil/cci/index.html">1436</reference>
-          <rationale xml:lang="en-US">
-Running a Samba server provides a network-based avenue of attack, and
-should be disabled if not needed.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-27143-7</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:315" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-    To check that the <h:code>smb</h:code> service is disabled in system boot configuration, run the following command: 
-    <h:pre># chkconfig <h:code>smb</h:code> --list</h:pre>
-    Output should indicate the <h:code>smb</h:code> service has either not been installed, 
-    or has been disabled at all runlevels, as shown in the example below:
-    <h:pre># chkconfig <h:code>smb</h:code> --list
-<h:code>smb</h:code>       0:off   1:off   2:off   3:off   4:off   5:off   6:off</h:pre>
-
-    Run the following command to verify <h:code>smb</h:code> is disabled through current runtime configuration:
-    <h:pre># service smb status</h:pre>
-
-    If the service is disabled the command will return the following output:
-    <h:pre>smb is stopped</h:pre>
-          </check-content>
-          </check>
-        </Rule>
-      </Group>
       <Group id="xccdf_org.ssgproject.content_group_configuring_samba">
         <title xml:lang="en-US">Configure Samba if Necessary</title>
         <description xml:lang="en-US">All settings for the Samba daemon can be found in
@@ -8572,107 +7493,6 @@ The output should show either <h:code>krb5i</h:code> or <h:code>ntlmv2i</h:code>
         </Rule>
         </Group>
     </Group>
-    <Group id="xccdf_org.ssgproject.content_group_proxy">
-      <title xml:lang="en-US">Proxy Server</title>
-      <description xml:lang="en-US">A proxy server is a very desirable target for a
-potential adversary because much (or all) sensitive data for a
-given infrastructure may flow through it. Therefore, if one is
-required, the machine acting as a proxy server should be dedicated
-to that purpose alone and be stored in a physically secure
-location. The system's default proxy server software is Squid, and
-provided in an RPM package of the same name.</description>
-      <Group id="xccdf_org.ssgproject.content_group_disabling_squid">
-        <title xml:lang="en-US">Disable Squid if Possible</title>
-        <description xml:lang="en-US">If Squid was installed and activated, but the system
-does not need to act as a proxy server, then it should be disabled
-and removed.
-</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_squid" selected="false" severity="low">
-          <title xml:lang="en-US">Disable Squid</title>
-          <description xml:lang="en-US">
-            
-    The <h:code>squid</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig squid off</h:pre>
-          </description>
-          <rationale xml:lang="en-US">
-Running proxy server software provides a network-based avenue
-of attack, and should be removed if not needed.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-27146-0</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:846" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-    To check that the <h:code>squid</h:code> service is disabled in system boot configuration, run the following command: 
-    <h:pre># chkconfig <h:code>squid</h:code> --list</h:pre>
-    Output should indicate the <h:code>squid</h:code> service has either not been installed, 
-    or has been disabled at all runlevels, as shown in the example below:
-    <h:pre># chkconfig <h:code>squid</h:code> --list
-<h:code>squid</h:code>       0:off   1:off   2:off   3:off   4:off   5:off   6:off</h:pre>
-
-    Run the following command to verify <h:code>squid</h:code> is disabled through current runtime configuration:
-    <h:pre># service squid status</h:pre>
-
-    If the service is disabled the command will return the following output:
-    <h:pre>squid is stopped</h:pre>
-          </check-content>
-          </check>
-        </Rule>
-        </Group>
     </Group>
-    <Group id="xccdf_org.ssgproject.content_group_snmp">
-      <title xml:lang="en-US">SNMP Server</title>
-      <description xml:lang="en-US">The Simple Network Management Protocol allows
-administrators to monitor the state of network devices, including
-computers. Older versions of SNMP were well-known for weak
-security, such as plaintext transmission of the community string
-(used for authentication) and usage of easily-guessable
-choices for the community string.</description>
-      <Group id="xccdf_org.ssgproject.content_group_disabling_snmp_service">
-        <title xml:lang="en-US">Disable SNMP Server if Possible</title>
-        <description xml:lang="en-US">The system includes an SNMP daemon that allows for its remote
-monitoring, though it not installed by default. If it was installed and
-activated but is not needed, the software should be disabled and removed.
-</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_snmpd" selected="false" severity="low">
-          <title xml:lang="en-US">Disable snmpd Service</title>
-          <description xml:lang="en-US">
-            
-    The <h:code>snmpd</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig snmpd off</h:pre>
-          </description>
-          <rationale xml:lang="en-US">
-Running SNMP software provides a network-based avenue of attack, and
-should be disabled if not needed.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26906-8</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:897" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-    To check that the <h:code>snmpd</h:code> service is disabled in system boot configuration, run the following command: 
-    <h:pre># chkconfig <h:code>snmpd</h:code> --list</h:pre>
-    Output should indicate the <h:code>snmpd</h:code> service has either not been installed, 
-    or has been disabled at all runlevels, as shown in the example below:
-    <h:pre># chkconfig <h:code>snmpd</h:code> --list
-<h:code>snmpd</h:code>       0:off   1:off   2:off   3:off   4:off   5:off   6:off</h:pre>
-
-    Run the following command to verify <h:code>snmpd</h:code> is disabled through current runtime configuration:
-    <h:pre># service snmpd status</h:pre>
-
-    If the service is disabled the command will return the following output:
-    <h:pre>snmpd is stopped</h:pre>
-          </check-content>
-          </check>
-        </Rule>
-        </Group>
-      </Group>
-  </Group>
   </Group>
 </Benchmark>
