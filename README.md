@@ -11,6 +11,7 @@ This project contains:
 * `ssg-rhel6-oval.xml`: Test definitions from the [scap-security-guide](https://fedorahosted.org/scap-security-guide/) project for testing Red Hat Enterprise Linux 6, as of 2014-06-06, some of which also apply to Ubuntu.
 * `run_tests.sh`: An example for calling [OpenSCAP](http://open-scap.org/page/Main_Page) to run the tests.
 * `ubuntu-cpe.xml` and `ubuntu-cpe-oval.xml` which define "Ubuntu" for the purposes of the test profiles.
+* `Vagrantfile`: A Vagrant configuration for a clean Ubuntu 14.04 server that you can test the profile on.
 
 Installing
 ----------
@@ -28,6 +29,15 @@ To run these tests on a machine:
 	# Start in ubuntu-scap directory
 	cd /path/to/ubuntu-scap
 	./run_tests.sh
+
+Or start up a virtual machine in Vagrant so you can test in an isolated environment:
+
+	sudo apt-get install vagrant
+	vagrant up
+	vagrant ssh
+	# now you're inside the virtual machine
+	cd /vagrant
+	sudo ./run_tests.sh
 
 Reading Results
 ---------------
