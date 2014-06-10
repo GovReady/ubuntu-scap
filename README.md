@@ -12,9 +12,11 @@ This project contains:
 * `run_tests.sh`: An example for calling [OpenSCAP](http://open-scap.org/page/Main_Page) to run the tests.
 * `ubuntu-cpe.xml` and `ubuntu-cpe-oval.xml` which define "Ubuntu" for the purposes of the test profiles.
 * `Vagrantfile`: A Vagrant configuration for a clean Ubuntu 14.04 server that you can test the profile on.
+* `remediation.sh`: A shell script to perform basic tasks to make some tests pass. (Run as root. Be careful.)
 
 Installing
 ----------
+
 To install ubuntu-scap on a ubuntu Linux machine:
 
 	sudo apt-get install libopenscap8
@@ -41,13 +43,14 @@ Or start up a virtual machine in Vagrant so you can test in an isolated environm
 
 Reading Results
 ---------------
-Results are generated in xml and optionally html reports.
 
-Install lynx browser to read html reports from command line:
+Results are generated in XML and optionally HTML reports.
+
+Install the lynx browser to read HTML reports from the command line:
 
 	sudo apt-get install lynx
 	# read report
-	lynx report-name.html
+	lynx results.html
 
 Project Development
 -------------------
