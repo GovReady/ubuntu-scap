@@ -3,7 +3,7 @@
   <status date="2014-06-06">draft</status>
   <title>Ubuntu 12.04/14.04 SCAP Profiles</title>
   <description>
-    This SCAP file provides a GovReady security audit for Ubuntu 12.04/14.04.
+    This SCAP file provides a GovReady security audit for Ubuntu 12.04/14.04 Server.
   </description>
   <platform idref="cpe:/o:ubuntu-trusty:linux"/>
   <version>0.01</version>
@@ -21,38 +21,13 @@
     <select idref="xccdf_org.ssgproject.content_rule_accounts_minimum_age_login_defs" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_accounts_no_uid_except_zero" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_accounts_password_all_shadowed" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_minlen_login_defs" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_dcredit" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_difok" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_lcredit" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_ocredit" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_retry" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_ucredit" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_reuse_limit" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_accounts_password_warn_age_login_defs" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_deny" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_accounts_umask_bashrc" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_accounts_umask_cshrc" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_accounts_umask_etc_profile" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_accounts_umask_login_defs" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_bootloader_password" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_deactivate_wireless_interfaces" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_host_auth" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_interactive_boot" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_rexec" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_rlogin" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_rsh" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_telnet_service" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_users_coredumps" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_disable_xwindows_with_runlevel" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_enable_auditd_bootloader" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_enable_gdm_login_banner" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_enable_screensaver_after_idle" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_enable_screensaver_password_lock" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_enable_selinux_bootloader" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_ensure_logrotate_activated" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_group" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_gshadow" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_passwd" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_file_owner_etc_group" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_file_owner_etc_gshadow" selected="true"/>
@@ -61,31 +36,22 @@
     <select idref="xccdf_org.ssgproject.content_rule_file_ownership_library_dirs" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_file_permissions_binary_dirs" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_group" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_gshadow" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_passwd" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_shadow" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_file_permissions_library_dirs" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_file_permissions_var_log_audit" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_group_owner_grub_conf" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_groupowner_rsyslog_files" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_groupowner_shadow_file" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_homedir_perms_no_groupwrite_worldread" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_install_PAE_kernel_on_x86-32" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_kernel_module_bluetooth_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_kernel_module_cramfs_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_kernel_module_dccp_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_kernel_module_freevxfs_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_kernel_module_hfs_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_kernel_module_hfsplus_disabled" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_kernel_module_ipv6_option_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_kernel_module_jffs2_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_kernel_module_rds_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_kernel_module_sctp_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_kernel_module_squashfs_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_kernel_module_tipc_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_kernel_module_udf_disabled" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_ldap_client_start_tls" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_ldap_client_tls_cacertpath" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_mount_option_dev_shm_nodev" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_mount_option_dev_shm_noexec" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_mount_option_dev_shm_nosuid" selected="true"/>
@@ -97,24 +63,17 @@
     <select idref="xccdf_org.ssgproject.content_rule_mountopt_nodev_on_nonroot_partitions" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_mountopt_nodev_on_removable_partitions" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_mountopt_nosuid_on_removable_partitions" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_network_disable_zeroconf" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_network_ipv6_disable_rpc" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_no_empty_passwords" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_no_files_unowned_by_group" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_no_files_unowned_by_user" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_no_rsh_trust_files" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_no_shelllogin_for_systemaccounts" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_no_unpackaged_sgid_files" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_no_unpackaged_suid_files" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_ntpd_specify_remote_server" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_partition_for_home" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_partition_for_tmp" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_partition_for_var" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_partition_for_var_log" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_partition_for_var_log_audit" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_permissions_grub_conf" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_postfix_network_listening" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_require_singleuser_auth" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_require_smb_client_signing" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_require_smb_client_signing_mount.cifs" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_restrict_serial_port_logins" selected="true"/>
@@ -124,29 +83,18 @@
     <select idref="xccdf_org.ssgproject.content_rule_rsyslog_file_permissions" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_rsyslog_send_messages_to_logserver" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_securetty_root_login_console_only" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_set_blank_screensaver" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_set_iptables_default_rule" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_set_iptables_default_rule_forward" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_set_password_hashing_algorithm_libuserconf" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_set_password_hashing_algorithm_logindefs" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_set_password_hashing_algorithm_systemauth" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_set_screensaver_inactivity_timeout" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_set_system_login_banner" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_sshd_allow_only_protocol2" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_sshd_disable_empty_passwords" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_sshd_disable_rhosts" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_sshd_disable_root_login" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_sshd_do_not_permit_user_env" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_sshd_enable_warning_banner" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_sshd_set_idle_timeout" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_sshd_set_keepalive" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_sshd_use_approved_ciphers" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_sticky_world_writable_dirs" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_sysctl_fs_suid_dumpable" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_sysctl_ipv4_all_send_redirects" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_sysctl_ipv4_ip_forward" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_sysctl_ipv6_default_accept_redirects" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_exec_shield" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_randomize_va_space" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_accept_redirects" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_accept_source_route" selected="true"/>
@@ -162,18 +110,27 @@
     <select idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_icmp_ignore_bogus_error_responses" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_tcp_syncookies" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_ra" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_umask_for_daemons" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_use_nodev_option_on_nfs_mounts" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_use_nosuid_option_on_nfs_mounts" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_user_owner_grub_conf" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_userowner_rsyslog_files" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_userowner_shadow_file" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_wireless_disable_in_bios" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_world_writable_files_system_ownership" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_world_writeable_files" selected="true"/>
 
     <!-- 
-      NEEDS TO BE CHECKED
+      NEED TO BE CHECKED AND EITHER REMOVED OR REPLACED WITH AN UBUNTU-SPECIFIC RULE
+
+    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_minlen_login_defs" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_dcredit" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_difok" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_lcredit" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_ocredit" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_retry" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_ucredit" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_accounts_password_reuse_limit" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_deny" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_accounts_umask_bashrc" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_accounts_umask_cshrc" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_audit_account_changes" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_audit_config_immutable" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_audit_kernel_module_loading" selected="true"/>
@@ -203,6 +160,7 @@
     <select idref="xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_audit_sysadmin_actions" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_auditd_data_retention_admin_space_left_action" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_bootloader_password" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_configure_auditd_max_log_file" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_configure_auditd_max_log_file_action" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_configure_auditd_num_logs" selected="true"/>
@@ -212,24 +170,47 @@
     <select idref="xccdf_org.ssgproject.content_rule_disable_dns_server" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_dovecot" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_httpd" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_interactive_boot" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_rexec" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_rlogin" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_rsh" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_smb_server" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_snmpd" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_squid" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_telnet_service" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_tftp" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_vsftpd" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_xinetd" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_disable_xwindows_with_runlevel" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_disable_ypbind" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_enable_auditd_bootloader" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_enable_auditd_bootloader" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_enable_selinux_bootloader" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_enable_selinux_bootloader" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_ensure_gpgcheck_globally_activated" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_ensure_gpgcheck_never_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_ensure_redhat_gpgkey_installed" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_gshadow" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_gshadow" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_shadow" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_group_owner_grub_conf" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_groupowner_rsyslog_files" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_groupowner_shadow_file" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_ldap_client_start_tls" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_ldap_client_tls_cacertpath" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_network_disable_zeroconf" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_no_files_unowned_by_group" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_no_shelllogin_for_systemaccounts" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_no_unpackaged_sgid_files" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_no_unpackaged_suid_files" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_package_aide_installed" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_package_openldap-servers_removed" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_package_rsyslog_installed" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_package_screen_installed" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_package_sendmail_removed" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_packagegroup_xwindows_remove" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_permissions_grub_conf" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_require_singleuser_auth" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_rpm_verify_hashes" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_rpm_verify_permissions" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_security_patches_up_to_date" selected="true"/>
@@ -259,6 +240,15 @@
     <select idref="xccdf_org.ssgproject.content_rule_service_rpcidmapd_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_service_rpcsvcgssd_disabled" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_service_rsyslog_enabled" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_set_iptables_default_rule" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_set_iptables_default_rule_forward" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_set_password_hashing_algorithm_systemauth" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_sshd_do_not_permit_user_env" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_sshd_enable_warning_banner" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_sshd_set_idle_timeout" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_sshd_set_keepalive" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_sshd_use_approved_ciphers" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_umask_for_daemons" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_uninstall_bind" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_uninstall_dhcp_server" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_uninstall_dovecot" selected="true"/>
@@ -271,7 +261,25 @@
     <select idref="xccdf_org.ssgproject.content_rule_uninstall_vsftpd" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_uninstall_xinetd" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_uninstall_ypserv" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_user_owner_grub_conf" selected="true"/>
     -->
+
+    <!-- NO UBUNTU EQUIVALENT
+    <select idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_exec_shield" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_accounts_umask_etc_profile" selected="true"/>
+    -->
+
+    <!-- POSSIBLY OBSOLETE?
+    These rules should be reconsidered!
+    <select idref="xccdf_org.ssgproject.content_rule_kernel_module_ipv6_option_disabled" selected="true"/>
+    -->
+
+    <!-- NOT AUTOMATED
+    These checks from SSG have no actual criteria and so are not checked in an automated way.
+    They should be replaced by rules that actually check something.
+    <select idref="xccdf_org.ssgproject.content_rule_install_PAE_kernel_on_x86-32" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_wireless_disable_in_bios" selected="true"/>
+    -->        
 
     <refine-value idref="xccdf_org.ssgproject.content_value_file_groupowner_logfiles_value" selector="root"/>
     <refine-value idref="xccdf_org.ssgproject.content_value_file_owner_logfiles_value" selector="root"/>
@@ -281,11 +289,9 @@
     <refine-value idref="xccdf_org.ssgproject.content_value_sysctl_net_ipv4_conf_default_secure_redirects_value" selector="disabled"/>
     <refine-value idref="xccdf_org.ssgproject.content_value_var_account_disable_post_pw_expiration" selector="30"/>
     <refine-value idref="xccdf_org.ssgproject.content_value_var_accounts_password_minlen_login_defs" selector="12"/>
-    <refine-value idref="xccdf_org.ssgproject.content_value_var_accounts_passwords_pam_faillock_deny" selector="5"/>
     <refine-value idref="xccdf_org.ssgproject.content_value_var_accounts_user_umask" selector="077"/>
     <refine-value idref="xccdf_org.ssgproject.content_value_var_password_history_retain_limit" selector="5"/>
-    <refine-value idref="xccdf_org.ssgproject.content_value_var_password_pam_cracklib_difok" selector="3"/>
-    <refine-value idref="xccdf_org.ssgproject.content_value_var_umask_for_daemons" selector="027"/>
+    <refine-value idref="xccdf_org.ssgproject.content_value_var_accounts_minimum_age_login_defs" selector="1"/>
   </Profile>
 
   <!-- DEFINITIONS -->
@@ -1012,73 +1018,6 @@ which could weaken the system security posture.</rationale>
             </check-content>
             </check>
           </Rule>
-          <Rule id="xccdf_org.ssgproject.content_rule_groupowner_shadow_file" selected="false" severity="medium">
-            <title xml:lang="en-US">Verify Group Who Owns shadow File</title>
-            <description xml:lang="en-US">
-              
-    To properly set the group owner of <h:code>/etc/shadow</h:code>, run the command:
-    <h:pre xml:space="preserve"># chgrp root/etc/shadow</h:pre>
-            </description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-6</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">225</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">The <h:code>/etc/shadow</h:code> file stores password hashes. Protection of this file is
-critical for system security.</rationale>
-            <ident system="http://cce.mitre.org">CCE-26967-0</ident>
-            <fix system="urn:xccdf:fix:script:sh">chgrp root /etc/shadow
-</fix>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:171" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-              
-    To check the group ownership of <h:code>/etc/shadow</h:code>, run the command:
-    <h:pre>$ ls -lL /etc/shadow</h:pre>
-    If properly configured, the output should indicate the following group-owner.
-    <h:code>root</h:code>
-            </check-content>
-            </check>
-          </Rule>
-          <Rule id="xccdf_org.ssgproject.content_rule_file_permissions_etc_shadow" selected="false" severity="medium">
-            <title xml:lang="en-US">Verify Permissions on shadow File</title>
-            <description xml:lang="en-US">
-              
-    To properly set the permissions of <h:code>/etc/shadow</h:code>, run the command:
-    <h:pre xml:space="preserve"># chmod 0000/etc/shadow</h:pre>
-            </description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-6</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">225</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">The <h:code>/etc/shadow</h:code> file contains the list of local
-system accounts and stores password hashes. Protection of this file is
-critical for system security. Failure to give ownership of this file
-to root provides the designated owner with access to sensitive information
-which could weaken the system security posture.</rationale>
-            <ident system="http://cce.mitre.org">CCE-26992-8</ident>
-            <fix system="urn:xccdf:fix:script:sh">chmod 0000 /etc/shadow
-</fix>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:1106" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-              
-    To check the permissions of <h:code>/etc/shadow</h:code>, run the command:
-    <h:pre>$ ls -l /etc/shadow</h:pre>
-    If properly configured, the output should indicate the following permissions:
-    <h:code>----------</h:code>
-            </check-content>
-            </check>
-          </Rule>
           <Rule id="xccdf_org.ssgproject.content_rule_file_owner_etc_group" selected="false" severity="medium">
             <title xml:lang="en-US">Verify User Who Owns group File</title>
             <description xml:lang="en-US">
@@ -1195,66 +1134,6 @@ is critical for system security.</rationale>
     <h:pre>$ ls -lL /etc/gshadow</h:pre>
     If properly configured, the output should indicate the following owner:
     <h:code>root</h:code>
-            </check-content>
-            </check>
-          </Rule>
-          <Rule id="xccdf_org.ssgproject.content_rule_file_groupowner_etc_gshadow" selected="false" severity="medium">
-            <title xml:lang="en-US">Verify Group Who Owns gshadow File</title>
-            <description xml:lang="en-US">
-              
-    To properly set the group owner of <h:code>/etc/gshadow</h:code>, run the command:
-    <h:pre xml:space="preserve"># chgrp root/etc/gshadow</h:pre>
-            </description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-6</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">225</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">The <h:code>/etc/gshadow</h:code> file contains group password hashes. Protection of this file
-is critical for system security.</rationale>
-            <ident system="http://cce.mitre.org">CCE-26975-3</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:506" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-              
-    To check the group ownership of <h:code>/etc/gshadow</h:code>, run the command:
-    <h:pre>$ ls -lL /etc/gshadow</h:pre>
-    If properly configured, the output should indicate the following group-owner.
-    <h:code>root</h:code>
-            </check-content>
-            </check>
-          </Rule>
-          <Rule id="xccdf_org.ssgproject.content_rule_file_permissions_etc_gshadow" selected="false" severity="medium">
-            <title xml:lang="en-US">Verify Permissions on gshadow File</title>
-            <description xml:lang="en-US">
-              
-    To properly set the permissions of <h:code>/etc/gshadow</h:code>, run the command:
-    <h:pre xml:space="preserve"># chmod 0000/etc/gshadow</h:pre>
-            </description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-6</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">225</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">The <h:code>/etc/gshadow</h:code> file contains group password hashes. Protection of this file
-is critical for system security.</rationale>
-            <ident system="http://cce.mitre.org">CCE-26951-4</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:1192" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-              
-    To check the permissions of <h:code>/etc/gshadow</h:code>, run the command:
-    <h:pre>$ ls -l /etc/gshadow</h:pre>
-    If properly configured, the output should indicate the following permissions:
-    <h:code>----------</h:code>
             </check-content>
             </check>
           </Rule>
@@ -1628,56 +1507,6 @@ To find world-writable files, run the following command:
 </check-content>
           </check>
         </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_no_unpackaged_sgid_files" selected="false" severity="low">
-          <title xml:lang="en-US">Ensure All SGID Executables Are Authorized</title>
-          <description xml:lang="en-US">The SGID (set group id) bit should be set only on files that were
-installed via authorized means. A straightforward means of identifying
-unauthorized SGID files is determine if any were not installed as part of an
-RPM package, which is cryptographically verified. Investigate the origin
-of any unpackaged SGID files. 
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf"/>
-          <rationale xml:lang="en-US">Executable files with the SGID permission run with the privileges of
-the owner of the file. SGID files of uncertain provenance could allow for
-unprivileged users to elevate privileges. The presence of these files should be
-strictly controlled on the system.</rationale>
-          <ident system="http://cce.mitre.org">CCE-26769-0</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:1098" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="there is output" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To find world-writable files, run the following command:
-<h:pre># find / -xdev -type f -perm -002</h:pre>
-</check-content>
-          </check>
-        </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_no_unpackaged_suid_files" selected="false" severity="low">
-          <title xml:lang="en-US">Ensure All SUID Executables Are Authorized</title>
-          <description xml:lang="en-US">The SUID (set user id) bit should be set only on files that were
-installed via authorized means. A straightforward means of identifying
-unauthorized SGID files is determine if any were not installed as part of an
-RPM package, which is cryptographically verified. Investigate the origin
-of any unpackaged SUID files. 
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf"/>
-          <rationale xml:lang="en-US">Executable files with the SUID permission run with the privileges of
-the owner of the file. SUID files of uncertain provenance could allow for
-unprivileged users to elevate privileges. The presence of these files should be
-strictly controlled on the system.</rationale>
-          <ident system="http://cce.mitre.org">CCE-26497-8</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:820" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To find world-writable files, run the following command:
-<h:pre># find / -xdev -type f -perm -002</h:pre>
-</check-content>
-          </check>
-        </Rule>
         <Rule id="xccdf_org.ssgproject.content_rule_no_files_unowned_by_user" selected="false" severity="low">
           <title xml:lang="en-US">Ensure All Files Are Owned by a User</title>
           <description xml:lang="en-US">If any files are not owned by a user, then the
@@ -1707,38 +1536,6 @@ The following command will discover and print any
 files on local partitions which do not belong to a valid user.
 Run it once for each local partition <h:i>PART</h:i>:
 <h:pre># find <h:i>PART</h:i> -xdev -nouser -print</h:pre>
-</check-content>
-          </check>
-        </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_no_files_unowned_by_group" selected="false" severity="low">
-          <title xml:lang="en-US">Ensure All Files Are Owned by a Group</title>
-          <description xml:lang="en-US">If any files are not owned by a group, then the
-cause of their lack of group-ownership should be investigated.
-Following this, the files should be deleted or assigned to an
-appropriate group.
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-6</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">224</reference>
-          <rationale xml:lang="en-US">
-Unowned files do not directly imply a security problem, but they are generally
-a sign that something is amiss. They may
-be caused by an intruder, by incorrect software installation or
-draft software removal, or by failure to remove all files belonging
-to a deleted account. The files should be repaired so they
-will not cause problems when accounts are created in the future,
-and the cause should be discovered and addressed.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26872-2</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:367" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="there is output" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-The following command will discover and print any
-files on local partitions which do not belong to a valid group.
-Run it once for each local partition <h:i>PART</h:i>:
-<h:pre># find <h:i>PART</h:i> -xdev -nogroup -print</h:pre>
 </check-content>
           </check>
         </Rule>
@@ -1785,58 +1582,6 @@ dangerous program execution are activated.
 These protections are applied at the system initialization or
 kernel level, and defend against certain types of badly-configured
 or compromised programs.</description>
-        <Group id="xccdf_org.ssgproject.content_group_daemon_umask">
-          <title xml:lang="en-US">Daemon Umask</title>
-          <description xml:lang="en-US">The umask is a per-process setting which limits
-the default permissions for creation of new files and directories.
-The system includes initialization scripts which set the default umask
-for system daemons.
-</description>
-          <Value id="xccdf_org.ssgproject.content_value_var_umask_for_daemons" operator="equals" type="string">
-            <title xml:lang="en-US">daemon umask</title>
-            <description xml:lang="en-US">Enter umask for daemons</description>
-            <value>022</value>
-            <value selector="022">022</value>
-            <value selector="027">027</value>
-          </Value>
-          <Rule id="xccdf_org.ssgproject.content_rule_umask_for_daemons" selected="false" severity="low">
-            <title xml:lang="en-US">Set Daemon Umask</title>
-            <description xml:lang="en-US">The file <h:code>/etc/init.d/functions</h:code> includes initialization
-parameters for most or all daemons started at boot time.  The default umask of
-022 prevents creation of group- or world-writable files.  To set the default
-umask for daemons, edit the following line, inserting 022 or 027 for
-<h:i>UMASK</h:i> appropriately:
-<h:pre>umask <h:i>UMASK</h:i></h:pre>
-Setting the umask to too restrictive a setting can cause serious errors at
-runtime.  Many daemons on the system already individually restrict themselves to
-a umask of 077 in their own init scripts.
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-6</reference>
-            <rationale xml:lang="en-US">The umask influences the permissions assigned to files created by a
-process at run time.  An unnecessarily permissive umask could result in files
-being created with insecure permissions.</rationale>
-            <ident system="http://cce.mitre.org">CCE-27031-4</ident>
-            <fix system="urn:xccdf:fix:script:sh">var_umask_for_daemons="<sub idref="xccdf_org.ssgproject.content_value_var_umask_for_daemons" use="legacy"/>"
-grep -q ^umask /etc/init.d/functions &amp;&amp; \
-  sed -i "s/umask.*/umask $var_umask_for_daemons/g" /etc/init.d/functions
-if ! [ $? -eq 0 ]; then
-    echo "umask $var_umask_for_daemons" &gt;&gt; /etc/init.d/functions
-fi
-</fix>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-export export-name="oval:ssg:var:2226" value-id="xccdf_org.ssgproject.content_value_var_umask_for_daemons"/>
-              <check-content-ref name="oval:ssg:def:566" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-To check the value of the <h:code>umask</h:code>, run the following command:
-<h:pre>$ grep umask /etc/init.d/functions</h:pre>
-The output should show either <h:code>022</h:code> or <h:code>027</h:code>.
-</check-content>
-            </check>
-          </Rule>
-        </Group>
         <Group id="xccdf_org.ssgproject.content_group_coredumps">
           <title xml:lang="en-US">Disable Core Dumps</title>
           <description xml:lang="en-US">A core dump file is the memory image of an executable
@@ -1945,64 +1690,6 @@ and special handling of text buffers. These protections are enabled by default a
 controlled through <h:code>sysctl</h:code> variables <h:code>kernel.exec-shield</h:code> and
 <h:code>kernel.randomize_va_space</h:code>.
 </description>
-          <Rule id="xccdf_org.ssgproject.content_rule_sysctl_kernel_exec_shield" selected="false" severity="medium">
-            <title xml:lang="en-US">Enable ExecShield</title>
-            <description xml:lang="en-US">
-              
-    To set the runtime status of the <h:code>kernel.exec-shield</h:code> kernel parameter,
-    run the following command:
-    <h:pre xml:space="preserve"># sysctl -w kernel.exec-shield=1</h:pre>
-    If this is not the system's default value, add the following line to <h:code>/etc/sysctl.conf</h:code>:
-    <h:pre xml:space="preserve">kernel.exec-shield = 1</h:pre>
-            </description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf"/>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">ExecShield uses the segmentation feature on all x86 systems
-to prevent execution in memory higher than a certain address. It
-writes an address as a limit in the code segment descriptor, to
-control where code can be executed, on a per-process basis. When
-the kernel places a process's memory regions such as the stack and
-heap higher than this address, the hardware prevents execution in that
-address range.</rationale>
-            <ident system="http://cce.mitre.org">CCE-27007-4</ident>
-            <fix system="urn:xccdf:fix:script:sh">#
-# Set runtime for kernel.exec-shield
-#
-sysctl -q -n -w kernel.exec-shield=1
-
-#
-# If kernel.exec-shield present in /etc/sysctl.conf, change value to "1"
-#	else, add "kernel.exec-shield = 1" to /etc/sysctl.conf
-#
-if grep --silent ^kernel.exec-shield /etc/sysctl.conf ; then
-	sed -i 's/^kernel.exec-shield.*/kernel.exec-shield = 1/g' /etc/sysctl.conf
-else
-	echo "" &gt;&gt; /etc/sysctl.conf
-	echo "# Set kernel.exec-shield to 1 per security requirements" &gt;&gt; /etc/sysctl.conf
-	echo "kernel.exec-shield = 1" &gt;&gt; /etc/sysctl.conf
-fi
-</fix>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:889" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="the correct value is not returned" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-              
-    The status of the <h:code>kernel.exec-shield</h:code> kernel parameter can be queried
-    by running the following command:
-    <h:pre xml:space="preserve">$ sysctl kernel.exec-shield</h:pre>
-    The output of the command should indicate a value of <h:code>1</h:code>.
-    If this value is not the default value, investigate how it could have been
-    adjusted at runtime, and verify it is not set improperly in
-    <h:code>/etc/sysctl.conf</h:code>.
-    
-            </check-content>
-            </check>
-          </Rule>
           <Rule id="xccdf_org.ssgproject.content_rule_sysctl_kernel_randomize_va_space" selected="false" severity="medium">
             <title xml:lang="en-US">Enable Randomized Layout of Virtual Address Space</title>
             <description xml:lang="en-US">
@@ -2061,125 +1748,8 @@ fi
             </check>
           </Rule>
         </Group>
-        <Group id="xccdf_org.ssgproject.content_group_enable_nx">
-          <title xml:lang="en-US">Enable Execute Disable (XD) or No Execute (NX) Support on
-x86 Systems</title>
-          <description xml:lang="en-US">Recent processors in the x86 family support the
-ability to prevent code execution on a per memory page basis.
-Generically and on AMD processors, this ability is called No
-Execute (NX), while on Intel processors it is called Execute
-Disable (XD). This ability can help prevent exploitation of buffer
-overflow vulnerabilities and should be activated whenever possible.
-Extra steps must be taken to ensure that this protection is
-enabled, particularly on 32-bit x86 systems. Other processors, such
-as Itanium and POWER, have included such support since inception
-and the standard kernel for those platforms supports the
-feature.</description>
-          <Rule id="xccdf_org.ssgproject.content_rule_install_PAE_kernel_on_x86-32" selected="false" severity="low">
-            <title xml:lang="en-US">Install PAE Kernel on Supported 32-bit x86 Systems</title>
-            <description xml:lang="en-US">Systems that are using the 64-bit x86 kernel package
-do not need to install the kernel-PAE package because the 64-bit
-x86 kernel already includes this support. However, if the system is
-32-bit and also supports the PAE and NX features as
-determined in the previous section, the kernel-PAE package should
-be installed to enable XD or NX support:
-<h:pre># yum install kernel-PAE</h:pre>
-The installation process should also have configured the
-bootloader to load the new kernel at boot. Verify this at reboot
-and modify <h:code>/etc/grub.conf</h:code> if necessary.</description>
-            <warning xml:lang="en-US" override="false" category="hardware">The kernel-PAE package should not be
-installed on older systems that do not support the XD or NX bit, as
-this may prevent them from booting.</warning>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf"/>
-            <rationale xml:lang="en-US">On 32-bit systems that support the XD or NX bit, the vendor-supplied
-PAE kernel is required to enable either Execute Disable (XD) or No Execute (NX) support.</rationale>
-            <ident system="http://cce.mitre.org">CCE-27010-8</ident>
-          </Rule>
-          </Group>
         </Group>
     </Group>
-    <Group id="xccdf_org.ssgproject.content_group_selinux">
-      <title xml:lang="en-US">SELinux</title>
-      <description xml:lang="en-US">SELinux is a feature of the Linux kernel which can be
-used to guard against misconfigured or compromised programs.
-SELinux enforces the idea that programs should be limited in what
-files they can access and what actions they can take.
-<h:br/><h:br/>
-The default SELinux policy, as configured on RHEL 6, has been
-sufficiently developed and debugged that it should be usable on
-almost any Red Hat machine with minimal configuration and a small
-amount of system administrator training. This policy prevents
-system services - including most of the common network-visible
-services such as mail servers, FTP servers, and DNS servers - from
-accessing files which those services have no valid reason to
-access. This action alone prevents a huge amount of possible damage
-from network attacks against services, from trojaned software, and
-so forth.
-<h:br/><h:br/>
-This guide recommends that SELinux be enabled using the
-default (targeted) policy on every Red Hat system, unless that
-system has unusual requirements which make a stronger policy
-appropriate.
-</description>
-      <Value id="xccdf_org.ssgproject.content_value_var_selinux_state" operator="equals" type="string">
-        <title xml:lang="en-US">SELinux state</title>
-        <description xml:lang="en-US">enforcing - SELinux security policy is enforced.
-<h:br/>permissive - SELinux prints warnings instead of enforcing.
-<h:br/>disabled - SELinux is fully disabled.</description>
-        <value>enforcing</value>
-        <value selector="enforcing">enforcing</value>
-        <value selector="permissive">permissive</value>
-        <value selector="disabled">disabled</value>
-      </Value>
-      <Value id="xccdf_org.ssgproject.content_value_var_selinux_policy_name" operator="equals" type="string">
-        <title xml:lang="en-US">SELinux policy</title>
-        <description xml:lang="en-US">Type of policy in use. Possible values are:
-<h:br/>targeted - Only targeted network daemons are protected.
-<h:br/>strict - Full SELinux protection.
-<h:br/>mls - Multiple levels of security</description>
-        <value>targeted</value>
-        <value selector="targeted">targeted</value>
-        <value selector="mls">mls</value>
-      </Value>
-      <Rule id="xccdf_org.ssgproject.content_rule_enable_selinux_bootloader" selected="false" severity="medium">
-        <title xml:lang="en-US">Ensure SELinux Not Disabled in /etc/grub.conf</title>
-        <description xml:lang="en-US">SELinux can be disabled at boot time by an argument in
-<h:code>/etc/grub.conf</h:code>.
-Remove any instances of <h:code>selinux=0</h:code> from the kernel arguments in that
-file to prevent SELinux from being disabled at boot.
-</description>
-        <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-3</reference>
-        <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-3(3)</reference>
-        <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-6</reference>
-        <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AU-9</reference>
-        <reference href="http://iase.disa.mil/cci/index.html">22</reference>
-        <reference href="http://iase.disa.mil/cci/index.html">32</reference>
-        <reference href="test_attestation">
-          <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-          <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-        </reference>
-        <rationale xml:lang="en-US">
-Disabling a major host protection feature, such as SELinux, at boot time prevents
-it from confining system services at boot time.  Further, it increases
-the chances that it will remain off during system operation.
-</rationale>
-        <ident system="http://cce.mitre.org">CCE-26956-3</ident>
-        <fix system="urn:xccdf:fix:script:sh">sed -i "s/selinux=0//gI" /etc/grub.conf
-sed -i "s/enforcing=0//gI" /etc/grub.conf
-</fix>
-        <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-          <check-content-ref name="oval:ssg:def:113" href="ssg-rhel6-oval.xml"/>
-        </check>
-        <check system="ocil-transitional">
-          <check-export export-name="SELinux is disabled at boot time" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-          <check-content>
-Inspect <h:code>/etc/grub.conf</h:code> for any instances of <h:code>selinux=0</h:code>
-in the kernel boot arguments.  Presence of <h:code>selinux=0</h:code> indicates
-that SELinux is disabled at boot time.
-</check-content>
-        </check>
-      </Rule>
-      </Group>
     <Group id="xccdf_org.ssgproject.content_group_accounts">
       <title xml:lang="en-US">Account and Access Control</title>
       <description xml:lang="en-US">In traditional Unix security, if an attacker gains
@@ -2291,53 +1861,6 @@ To check for serial port entries which permit root login,
 run the following command:
 <h:pre># grep ^ttyS/[0-9] /etc/securetty</h:pre>
 If any output is returned, then root login over serial ports is permitted.
-</check-content>
-            </check>
-          </Rule>
-          <Rule id="xccdf_org.ssgproject.content_rule_no_shelllogin_for_systemaccounts" selected="false" severity="medium">
-            <title xml:lang="en-US">Ensure that System Accounts Do Not Run a Shell Upon Login</title>
-            <description xml:lang="en-US">
-Some accounts are not associated with a human
-user of the system, and exist to perform some administrative
-function. Should an attacker be able to log into these accounts,
-they should not be granted access to a shell.
-<h:br/><h:br/>
-The login shell for each local account is stored in the last field of each line
-in <h:code>/etc/passwd</h:code>. System accounts are those user accounts with a user ID less than
-500. The user ID is stored in the third field.
-If any system account <h:i>SYSACCT</h:i> (other than root) has a login shell,
-disable it with the command:
-<h:pre># usermod -s /sbin/nologin <h:i>SYSACCT</h:i></h:pre>
-</description>
-            <warning xml:lang="en-US" override="false" category="functionality">
-Do not perform the steps in this
-section on the root account. Doing so might cause the system to
-become inaccessible.
-</warning>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf"/>
-            <reference href="http://iase.disa.mil/cci/index.html">178</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">
-Ensuring shells are not given to system accounts upon login
-makes it more difficult for attackers to make use of
-system accounts.
-</rationale>
-            <ident system="http://cce.mitre.org">CCE-26966-2</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:885" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="any system account (other than root) has a login shell" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-To obtain a listing of all users,
-their UIDs, and their shells, run the command:
-<h:pre>$ awk -F: '{print $1 ":" $3 ":" $7}' /etc/passwd</h:pre>
-Identify the system accounts from this listing. These will
-primarily be the accounts with UID numbers less than 500, other
-than root.
 </check-content>
             </check>
           </Rule>
@@ -2538,55 +2061,6 @@ age, and 7 day warning period with the following command:
             <value selector="7">7</value>
             <value selector="14">14</value>
           </Value>
-          <Rule id="xccdf_org.ssgproject.content_rule_accounts_password_minlen_login_defs" selected="false" severity="medium">
-            <title xml:lang="en-US">Set Password Minimum Length in login.defs</title>
-            <description xml:lang="en-US">To specify password length requirements for new accounts,
-edit the file <h:code>/etc/login.defs</h:code> and add or correct the following
-lines:
-<h:pre>PASS_MIN_LEN 14<!-- <sub idref="var_accounts_password_minlen_login_defs"> --></h:pre>
-<h:br/><h:br/>
-The DoD requirement is <h:code>14</h:code>. 
-The FISMA requirement is <h:code>12</h:code>.
-If a program consults <h:code>/etc/login.defs</h:code> and also another PAM module
-(such as <h:code>pam_cracklib</h:code>) during a password change operation,
-then the most restrictive must be satisfied. See PAM section
-for more information about enforcing password quality requirements.
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(f)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(1)(a)</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">205</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">
-Requiring a minimum password length makes password
-cracking attacks more difficult by ensuring a larger
-search space. However, any security benefit from an onerous requirement
-must be carefully weighed against usability problems, support costs, or counterproductive
-behavior that may result.
-</rationale>
-            <ident system="http://cce.mitre.org">CCE-27002-5</ident>
-            <fix system="urn:xccdf:fix:script:sh">var_accounts_password_minlen_login_defs="<sub idref="xccdf_org.ssgproject.content_value_var_accounts_password_minlen_login_defs" use="legacy"/>"
-grep -q ^PASS_MIN_LEN /etc/login.defs &amp;&amp; \
-  sed -i "s/PASS_MIN_LEN.*/PASS_MIN_LEN     $var_accounts_password_minlen_login_defs/g" /etc/login.defs
-if ! [ $? -eq 0 ]; then
-    echo "PASS_MIN_LEN      $var_accounts_password_minlen_login_defs" &gt;&gt; /etc/login.defs
-fi
-</fix>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-export export-name="oval:ssg:var:2238" value-id="xccdf_org.ssgproject.content_value_var_accounts_password_minlen_login_defs"/>
-              <check-content-ref name="oval:ssg:def:993" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="it is not set to the required value" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-To check the minimum password length, run the command:
-<h:pre>$ grep PASS_MIN_LEN /etc/login.defs</h:pre>
-The DoD requirement is <h:code>14</h:code>. 
-</check-content>
-            </check>
-          </Rule>
           <Rule id="xccdf_org.ssgproject.content_rule_accounts_minimum_age_login_defs" selected="false" severity="medium">
             <title xml:lang="en-US">Set Password Minimum Age</title>
             <description xml:lang="en-US">To specify password minimum age for new accounts,
@@ -2852,474 +2326,11 @@ frequently.</description>
           <value selector="10">10</value>
           <value selector="24">24</value>
         </Value>
-        <Group id="xccdf_org.ssgproject.content_group_password_quality">
-          <title xml:lang="en-US">Set Password Quality Requirements</title>
-          <description xml:lang="en-US">The default <h:code>pam_cracklib</h:code> PAM module provides strength
-checking for passwords. It performs a number of checks, such as
-making sure passwords are not similar to dictionary words, are of
-at least a certain length, are not the previous password reversed,
-and are not simply a change of case from the previous password. It
-can also require passwords to be in certain character classes.
-<h:br/><h:br/>
-The <h:code>pam_passwdqc</h:code> PAM module also provides the ability to enforce
-stringent password strength requirements. It is provided
-in an RPM of the same name.
-<h:br/><h:br/>
-The man pages <h:code>pam_cracklib(8)</h:code> and <h:code>pam_passwdqc(8)</h:code>
-provide information on the capabilities and configuration of
-each.</description>
-          <Group id="xccdf_org.ssgproject.content_group_password_quality_pamcracklib">
-            <title xml:lang="en-US">Set Password Quality Requirements, if using
-pam_cracklib</title>
-            <description xml:lang="en-US">The <h:code>pam_cracklib</h:code> PAM module can be configured to meet
-requirements for a variety of policies.
-<h:br/><h:br/>
-For example, to configure <h:code>pam_cracklib</h:code> to require at least one uppercase
-character, lowercase character, digit, and other (special)
-character, locate the following line in <h:code>/etc/pam.d/system-auth</h:code>:
-<h:pre>password requisite pam_cracklib.so try_first_pass retry=3</h:pre>
-and then alter it to read:
-<h:pre>password required pam_cracklib.so try_first_pass retry=3 maxrepeat=3 minlen=14 dcredit=-1 ucredit=-1 ocredit=-1 lcredit=-1 difok=4</h:pre>
-If no such line exists, add one as the first line of the password section in <h:code>/etc/pam.d/system-auth</h:code>.
-The arguments can be modified to ensure compliance with
-your organization's security policy. Discussion of each parameter follows.
-</description>
-            <warning xml:lang="en-US" override="false" category="general">Note that the password quality
-requirements are not enforced for the root account for some
-reason.</warning>
-            <Value id="xccdf_org.ssgproject.content_value_var_password_pam_cracklib_retry" operator="equals" type="number">
-              <title xml:lang="en-US">retry</title>
-              <description xml:lang="en-US">Number of retry attempts before erroring out</description>
-              <value>3</value>
-              <value selector="1">1</value>
-              <value selector="2">2</value>
-              <value selector="3">3</value>
-            </Value>
-            <Value id="xccdf_org.ssgproject.content_value_var_password_pam_cracklib_minlen" operator="equals" type="number">
-              <title xml:lang="en-US">minlen</title>
-              <description xml:lang="en-US">Minimum number of characters in password</description>
-              <value>14</value>
-              <value selector="6">6</value>
-              <value selector="8">8</value>
-              <value selector="10">10</value>
-              <value selector="12">12</value>
-              <value selector="14">14</value>
-              <value selector="15">15</value>
-            </Value>
-            <Value id="xccdf_org.ssgproject.content_value_var_password_pam_cracklib_dcredit" operator="equals" type="number">
-              <title xml:lang="en-US">dcredit</title>
-              <description xml:lang="en-US">Minimum number of digits in password</description>
-              <value>-1</value>
-              <value selector="2">-2</value>
-              <value selector="1">-1</value>
-              <value selector="0">0</value>
-            </Value>
-            <Value id="xccdf_org.ssgproject.content_value_var_password_pam_cracklib_ocredit" operator="equals" type="number">
-              <title xml:lang="en-US">ocredit</title>
-              <description xml:lang="en-US">Minimum number of other (special characters) in
-password</description>
-              <value>-1</value>
-              <value selector="2">-2</value>
-              <value selector="1">-1</value>
-              <value selector="0">0</value>
-            </Value>
-            <Value id="xccdf_org.ssgproject.content_value_var_password_pam_cracklib_lcredit" operator="equals" type="number">
-              <title xml:lang="en-US">lcredit</title>
-              <description xml:lang="en-US">Minimum number of lower case in password</description>
-              <value>-1</value>
-              <value selector="2">-2</value>
-              <value selector="1">-1</value>
-              <value selector="0">0</value>
-            </Value>
-            <Value id="xccdf_org.ssgproject.content_value_var_password_pam_cracklib_ucredit" operator="equals" type="number">
-              <title xml:lang="en-US">ucredit</title>
-              <description xml:lang="en-US">Minimum number of upper case in password</description>
-              <value>-1</value>
-              <value selector="2">-2</value>
-              <value selector="1">-1</value>
-              <value selector="0">0</value>
-            </Value>
-            <Value id="xccdf_org.ssgproject.content_value_var_password_pam_cracklib_difok" operator="equals" type="number">
-              <title xml:lang="en-US">difok</title>
-              <description xml:lang="en-US">Minimum number of characters not present in old
-password</description>
-              <warning xml:lang="en-US" override="false" category="general">Keep this high for short
-passwords</warning>
-              <value>4</value>
-              <value selector="2">2</value>
-              <value selector="3">3</value>
-              <value selector="4">4</value>
-              <value selector="5">5</value>
-            </Value>
-            <Value id="xccdf_org.ssgproject.content_value_var_accounts_passwords_pam_faillock_deny" operator="equals" type="number">
-              <title xml:lang="en-US">fail_deny</title>
-              <description xml:lang="en-US">Number of failed login attempts before account lockout</description>
-              <value>3</value>
-              <value selector="3">3</value>
-              <value selector="5">5</value>
-              <value selector="10">10</value>
-            </Value>
-            <Value id="xccdf_org.ssgproject.content_value_var_accounts_passwords_pam_faillock_unlock_time" operator="equals" type="number">
-              <title xml:lang="en-US">fail_unlock_time</title>
-              <description xml:lang="en-US">Seconds before automatic unlocking after excessive failed logins</description>
-              <value>604800</value>
-              <value selector="900">900</value>
-              <value selector="1800">1800</value>
-              <value selector="3600">3600</value>
-              <value selector="86400">86400</value>
-              <value selector="604800">604800</value>
-            </Value>
-            <Value id="xccdf_org.ssgproject.content_value_var_accounts_passwords_pam_faillock_fail_interval" operator="equals" type="number">
-              <title xml:lang="en-US">fail_interval</title>
-              <description xml:lang="en-US">Interval for counting failed login attempts before account lockout</description>
-              <value>900</value>
-              <value selector="900">900</value>
-              <value selector="1800">1800</value>
-              <value selector="3600">3600</value>
-              <value selector="86400">86400</value>
-              <value selector="100000000">100000000</value>
-            </Value>
-            <Rule id="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_retry" selected="false" severity="low">
-              <title xml:lang="en-US">Set Password Retry Prompts Permitted Per-Session</title>
-              <description xml:lang="en-US">To configure the number of retry prompts that are permitted per-session:
-<h:br/><h:br/>
-Edit the <h:code>pam_cracklib.so</h:code> statement in <h:code>/etc/pam.d/system-auth</h:code> to 
-show <h:code>retry=3</h:code>, or a lower value if site policy is more restrictive.
-<h:br/><h:br/>
-The DoD requirement is a maximum of 3 prompts per session.
-</description>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(c)</reference>
-              <reference href="http://iase.disa.mil/cci/index.html">1092</reference>
-              <reference href="test_attestation">
-                <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-                <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-              </reference>
-              <rationale xml:lang="en-US">
-Setting the password retry prompts that are permitted on a per-session basis to a low value
-requires some software, such as SSH, to re-connect. This can slow down and
-draw additional attention to some types of password-guessing attacks. Note that this
-is different from account lockout, which is provided by the pam_faillock module.
-</rationale>
-              <ident system="http://cce.mitre.org">CCE-27123-9</ident>
-              <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-                <check-export export-name="oval:ssg:var:2231" value-id="xccdf_org.ssgproject.content_value_var_password_pam_cracklib_retry"/>
-                <check-content-ref name="oval:ssg:def:719" href="ssg-rhel6-oval.xml"/>
-              </check>
-              <check system="ocil-transitional">
-                <check-export export-name="it is not the required value" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-                <check-content>
-To check how many retry attempts are permitted on a per-session basis, run the following command:
-<h:pre>$ grep pam_cracklib /etc/pam.d/system-auth</h:pre>
-The <h:code>retry</h:code> parameter will indicate how many attempts are permitted.
-The DoD required value is less than or equal to 3.
-This would appear as <h:code>retry=3</h:code>, or a lower value.
-</check-content>
-              </check>
-            </Rule>
-            <Rule id="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_dcredit" selected="false" severity="low">
-              <title xml:lang="en-US">Set Password Strength Minimum Digit Characters</title>
-              <description xml:lang="en-US">The pam_cracklib module's <h:code>dcredit</h:code> parameter controls requirements for
-usage of digits in a password. When set to a negative number, any password will be required to
-contain that many digits. When set to a positive number, pam_cracklib will grant +1 additional
-length credit for each digit.  
-Add <h:code>dcredit=-1</h:code> after pam_cracklib.so to require use of a digit in passwords.
-</description>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(b)</reference>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(c)</reference>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">194</reference>
-              <reference href="http://iase.disa.mil/cci/index.html">194</reference>
-              <reference href="test_attestation">
-                <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-                <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-              </reference>
-              <rationale xml:lang="en-US">
-Requiring digits makes password guessing attacks more difficult by ensuring a larger
-search space.
-</rationale>
-              <ident system="http://cce.mitre.org">CCE-26374-9</ident>
-              <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-                <check-export export-name="oval:ssg:var:2245" value-id="xccdf_org.ssgproject.content_value_var_password_pam_cracklib_dcredit"/>
-                <check-content-ref name="oval:ssg:def:1123" href="ssg-rhel6-oval.xml"/>
-              </check>
-              <check system="ocil-transitional">
-                <check-export export-name="dcredit is not found or not set to the required value" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-                <check-content>
-To check how many digits are required in a password, run the following command:
-<h:pre>$ grep pam_cracklib /etc/pam.d/system-auth</h:pre>
-The <h:code>dcredit</h:code> parameter (as a negative number) will indicate how many digits are required.
-The DoD requires at least one digit in a password.
-This would appear as <h:code>dcredit=-1</h:code>.
-</check-content>
-              </check>
-            </Rule>
-            <Rule id="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_ucredit" selected="false" severity="low">
-              <title xml:lang="en-US">Set Password Strength Minimum Uppercase Characters</title>
-              <description xml:lang="en-US">The pam_cracklib module's <h:code>ucredit=</h:code> parameter controls requirements for
-usage of uppercase letters in a password. When set to a negative number, any password will be required to
-contain that many uppercase characters. When set to a positive number, pam_cracklib will grant +1 additional
-length credit for each uppercase character.
-Add <h:code>ucredit=-1</h:code> after pam_cracklib.so to require use of an upper case character in passwords.
-</description>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(b)</reference>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(c)</reference>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(1)(a)</reference>
-              <reference href="http://iase.disa.mil/cci/index.html">192</reference>
-              <reference href="test_attestation">
-                <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-                <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-              </reference>
-              <rationale xml:lang="en-US">
-Requiring a minimum number of uppercase characters makes password guessing attacks
-more difficult by ensuring a larger search space.
-</rationale>
-              <ident system="http://cce.mitre.org">CCE-26601-5</ident>
-              <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-                <check-export export-name="oval:ssg:var:2220" value-id="xccdf_org.ssgproject.content_value_var_password_pam_cracklib_ucredit"/>
-                <check-content-ref name="oval:ssg:def:161" href="ssg-rhel6-oval.xml"/>
-              </check>
-              <check system="ocil-transitional">
-                <check-export export-name="ucredit is not found or not set to the required value" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-                <check-content>
-To check how many uppercase characters are required in a password, run the following command:
-<h:pre>$ grep pam_cracklib /etc/pam.d/system-auth</h:pre>
-The <h:code>ucredit</h:code> parameter (as a negative number) will indicate how many uppercase characters are required.
-The DoD and FISMA require at least one uppercase character in a password.
-This would appear as <h:code>ucredit=-1</h:code>.
-</check-content>
-              </check>
-            </Rule>
-            <Rule id="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_ocredit" selected="false" severity="low">
-              <title xml:lang="en-US">Set Password Strength Minimum Special Characters</title>
-              <description xml:lang="en-US">The pam_cracklib module's <h:code>ocredit=</h:code> parameter controls requirements for
-usage of special (or ``other'') characters in a password. When set to a negative number, any password will be required to
-contain that many special characters. When set to a positive number, pam_cracklib will grant +1 additional
-length credit for each special character.
-Add <h:code>ocredit=-1</h:code> after pam_cracklib.so to require use of a special character in passwords.
-</description>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(b)</reference>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(c)</reference>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(1)(a)</reference>
-              <reference href="http://iase.disa.mil/cci/index.html">1619</reference>
-              <reference href="test_attestation">
-                <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-                <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-              </reference>
-              <rationale xml:lang="en-US">
-Requiring a minimum number of special characters makes password guessing attacks
-more difficult by ensuring a larger search space.
-</rationale>
-              <ident system="http://cce.mitre.org">CCE-26409-3</ident>
-              <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-                <check-export export-name="oval:ssg:var:2239" value-id="xccdf_org.ssgproject.content_value_var_password_pam_cracklib_ocredit"/>
-                <check-content-ref name="oval:ssg:def:1018" href="ssg-rhel6-oval.xml"/>
-              </check>
-              <check system="ocil-transitional">
-                <check-export export-name="ocredit is not found or not set to the required value" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-                <check-content>
-To check how many special characters are required in a password, run the following command:
-<h:pre>$ grep pam_cracklib /etc/pam.d/system-auth</h:pre>
-The <h:code>ocredit</h:code> parameter (as a negative number) will indicate how many special characters are required.
-The DoD and FISMA require at least one special character in a password.
-This would appear as <h:code>ocredit=-1</h:code>.
-</check-content>
-              </check>
-            </Rule>
-            <Rule id="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_lcredit" selected="false" severity="low">
-              <title xml:lang="en-US">Set Password Strength Minimum Lowercase Characters</title>
-              <description xml:lang="en-US">The pam_cracklib module's <h:code>lcredit=</h:code> parameter controls requirements for
-usage of lowercase letters in a password. When set to a negative number, any password will be required to
-contain that many lowercase characters. When set to a positive number, pam_cracklib will grant +1 additional
-length credit for each lowercase character.
-Add <h:code>lcredit=-1</h:code> after pam_cracklib.so to require use of a lowercase character in passwords.
-</description>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(b)</reference>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(c)</reference>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(1)(a)</reference>
-              <reference href="http://iase.disa.mil/cci/index.html">193</reference>
-              <reference href="test_attestation">
-                <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-                <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-              </reference>
-              <rationale xml:lang="en-US">
-Requiring a minimum number of lowercase characters makes password guessing attacks
-more difficult by ensuring a larger search space.
-</rationale>
-              <ident system="http://cce.mitre.org">CCE-26631-2</ident>
-              <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-                <check-export export-name="oval:ssg:var:2221" value-id="xccdf_org.ssgproject.content_value_var_password_pam_cracklib_lcredit"/>
-                <check-content-ref name="oval:ssg:def:198" href="ssg-rhel6-oval.xml"/>
-              </check>
-              <check system="ocil-transitional">
-                <check-export export-name="lcredit is not found or not set to the required value" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-                <check-content>
-To check how many lowercase characters are required in a password, run the following command:
-<h:pre>$ grep pam_cracklib /etc/pam.d/system-auth</h:pre>
-The <h:code>lcredit</h:code> parameter (as a negative number) will indicate how many special characters are required.
-The DoD and FISMA require at least one lowercase character in a password.
-This would appear as <h:code>lcredit=-1</h:code>.
-</check-content>
-              </check>
-            </Rule>
-            <Rule id="xccdf_org.ssgproject.content_rule_accounts_password_pam_cracklib_difok" selected="false" severity="low">
-              <title xml:lang="en-US">Set Password Strength Minimum Different Characters</title>
-              <description xml:lang="en-US">The pam_cracklib module's <h:code>difok</h:code> parameter controls requirements for
-usage of different characters during a password change.
-Add <h:code>difok=<h:i>NUM</h:i></h:code> after pam_cracklib.so to require differing
-characters when changing passwords, substituting <h:i>NUM</h:i> appropriately.
-The DoD requirement is <h:code>4</h:code>.
-</description>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(b)</reference>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(c)</reference>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(1)(b)</reference>
-              <reference href="http://iase.disa.mil/cci/index.html">195</reference>
-              <reference href="test_attestation">
-                <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-                <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-              </reference>
-              <rationale xml:lang="en-US">
-Requiring a minimum number of different characters during password changes ensures that
-newly changed passwords should not resemble previously compromised ones.
-Note that passwords which are changed on compromised systems will still be compromised, however.
-</rationale>
-              <ident system="http://cce.mitre.org">CCE-26615-5</ident>
-              <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-                <check-export export-name="oval:ssg:var:2242" value-id="xccdf_org.ssgproject.content_value_var_password_pam_cracklib_difok"/>
-                <check-content-ref name="oval:ssg:def:1059" href="ssg-rhel6-oval.xml"/>
-              </check>
-              <check system="ocil-transitional">
-                <check-export export-name="difok is not found or not set to the required value" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-                <check-content>
-To check how many characters must differ during a password change, run the following command:
-<h:pre>$ grep pam_cracklib /etc/pam.d/system-auth</h:pre>
-The <h:code>difok</h:code> parameter will indicate how many characters must differ.
-The DoD requires four characters differ during a password change.
-This would appear as <h:code>difok=4</h:code>.
-</check-content>
-              </check>
-            </Rule>
-          </Group>
-        </Group>
-        <Group id="xccdf_org.ssgproject.content_group_locking_out_password_attempts">
-          <title xml:lang="en-US">Set Lockouts for Failed Password Attempts</title>
-          <description xml:lang="en-US">The <h:code>pam_faillock</h:code> PAM module provides the capability to
-lock out user accounts after a number of failed login attempts. Its
-documentation is available in
-<h:code>/usr/share/doc/pam-VERSION/txts/README.pam_faillock</h:code>.
-<h:br/><h:br/>
-</description>
-          <warning xml:lang="en-US" override="false" category="general">Locking out user accounts presents the
-risk of a denial-of-service attack. The lockout policy
-must weigh whether the risk of such a
-denial-of-service attack outweighs the benefits of thwarting
-password guessing attacks.</warning>
-          <Rule id="xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_deny" selected="false" severity="medium">
-            <title xml:lang="en-US">Set Deny For Failed Password Attempts</title>
-            <description xml:lang="en-US">
-To configure the system to lock out accounts after a number of incorrect login
-attempts using <h:code>pam_faillock.so</h:code>:
-<h:br/><h:br/>
-Add the following lines immediately below the <h:code>pam_unix.so</h:code> statement in <h:code>AUTH</h:code> section of
-both <h:code>/etc/pam.d/system-auth</h:code> and /etc/pam.d/password-auth:
-<h:pre>auth [default=die] pam_faillock.so authfail deny=3 unlock_time=604800 fail_interval=900</h:pre>
-<h:pre>auth required pam_faillock.so authsucc deny=3 unlock_time=604800 fail_interval=900</h:pre>
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-7(a)</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">44</reference>
-            <rationale xml:lang="en-US">
-Locking out user accounts after a number of incorrect attempts
-prevents direct password guessing attacks.
-</rationale>
-            <ident system="http://cce.mitre.org">CCE-26844-1</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-export export-name="oval:ssg:var:2227" value-id="xccdf_org.ssgproject.content_value_var_accounts_passwords_pam_faillock_deny"/>
-              <check-content-ref name="oval:ssg:def:568" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="that is not the case" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-To ensure the failed password attempt policy is configured correctly, run the following command:
-<h:pre># grep pam_faillock /etc/pam.d/system-auth</h:pre>
-The output should show <h:code>deny=3</h:code>.
-</check-content>
-            </check>
-          </Rule>
-          <Rule id="xccdf_org.ssgproject.content_rule_accounts_password_reuse_limit" selected="false" severity="medium">
-            <title xml:lang="en-US">Limit Password Reuse</title>
-            <description xml:lang="en-US">Do not allow users to reuse recent passwords. This can
-be accomplished by using the <h:code>remember</h:code> option for the <h:code>pam_unix</h:code> PAM
-module.  In the file <h:code>/etc/pam.d/system-auth</h:code>, append <h:code>remember=24</h:code> to the 
-line which refers to the <h:code>pam_unix.so</h:code> module, as shown:
-<h:pre>password sufficient pam_unix.so <h:i>existing_options</h:i> remember=24</h:pre>
-The DoD and FISMA requirement is 24 passwords.</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(f)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(1)(e)</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">200</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">
-Preventing re-use of previous passwords helps ensure that a compromised password is not re-used by a user.
-</rationale>
-            <ident system="http://cce.mitre.org">CCE-26741-9</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-export export-name="oval:ssg:var:2246" value-id="xccdf_org.ssgproject.content_value_var_password_history_retain_limit"/>
-              <check-content-ref name="oval:ssg:def:1134" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-To verify the password reuse setting is compliant, run the following command:
-<h:pre>$ grep remember /etc/pam.d/system-auth</h:pre>
-The output should show the following at the end of the line:
-<h:pre>remember=24</h:pre>
-</check-content>
-            </check>
-          </Rule>
-        </Group>
         <Group id="xccdf_org.ssgproject.content_group_set_password_hashing_algorithm">
           <title xml:lang="en-US">Set Password Hashing Algorithm</title>
           <description xml:lang="en-US">The system's default algorithm for storing password hashes in
 <h:code>/etc/shadow</h:code> is SHA-512. This can be configured in several
 locations.</description>
-          <Rule id="xccdf_org.ssgproject.content_rule_set_password_hashing_algorithm_systemauth" selected="false" severity="medium">
-            <title xml:lang="en-US">Set Password Hashing Algorithm in /etc/pam.d/system-auth</title>
-            <description xml:lang="en-US">
-In <h:code>/etc/pam.d/system-auth</h:code>, the <h:code>password</h:code> section of
-the file controls which PAM modules execute during a password change.
-Set the <h:code>pam_unix.so</h:code> module in the
-<h:code>password</h:code> section to include the argument <h:code>sha512</h:code>, as shown below:
-<h:pre>password    sufficient    pam_unix.so sha512 <h:i>other arguments...</h:i></h:pre>
-This will help ensure when local users change their passwords, hashes for the new
-passwords will be generated using the SHA-512 algorithm.
-This is the default.
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(b)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(c)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(1)(c)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-7</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">803</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">
-Using a stronger hashing algorithm makes password cracking attacks more difficult.
-</rationale>
-            <ident system="http://cce.mitre.org">CCE-26303-8</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:1049" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-Inspect the <h:code>password</h:code> section of <h:code>/etc/pam.d/system-auth</h:code>  and
-ensure that the <h:code>pam_unix.so</h:code> module includes the argument
-<h:code>sha512</h:code>:
-<h:pre>$ grep sha512 /etc/pam.d/system-auth</h:pre>
-</check-content>
-            </check>
-          </Rule>
           <Rule id="xccdf_org.ssgproject.content_rule_set_password_hashing_algorithm_logindefs" selected="false" severity="medium">
             <title xml:lang="en-US">Set Password Hashing Algorithm in /etc/login.defs</title>
             <description xml:lang="en-US">
@@ -3554,128 +2565,6 @@ being inadvertently shared.-->
             <value selector="027">027</value>
             <value selector="077">077</value>
           </Value>
-          <Rule id="xccdf_org.ssgproject.content_rule_accounts_umask_bashrc" selected="false" severity="low">
-            <title xml:lang="en-US">Ensure the Default Bash Umask is Set Correctly</title>
-            <description xml:lang="en-US">
-To ensure the default umask for users of the Bash shell is set properly,
-add or correct the <h:code>umask</h:code> setting in <h:code>/etc/bashrc</h:code> to read
-as follows:
-<h:pre>umask 077<!-- <sub idref="var_accounts_user_umask" /> --></h:pre>
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf"/>
-            <reference href="http://iase.disa.mil/cci/index.html">366</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">swells</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20120929</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">The umask value influences the permissions assigned to files when they are created.
-A misconfigured umask value could result in files with excessive permissions that can be read or
-written to by unauthorized users.</rationale>
-            <ident system="http://cce.mitre.org">CCE-26917-5</ident>
-            <fix system="urn:xccdf:fix:script:sh">var_accounts_user_umask="<sub idref="xccdf_org.ssgproject.content_value_var_accounts_user_umask" use="legacy"/>"
-grep -q umask /etc/bashrc &amp;&amp; \
-  sed -i "s/umask.*/umask $var_accounts_user_umask/g" /etc/bashrc
-if ! [ $? -eq 0 ]; then
-    echo "umask $var_accounts_user_umask" &gt;&gt; /etc/bashrc
-fi
-</fix>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-export export-name="oval:ssg:var:2218" value-id="xccdf_org.ssgproject.content_value_var_accounts_user_umask"/>
-              <check-content-ref name="oval:ssg:def:121" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="the above command returns no output, or if the umask is configured incorrectly" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-Verify the <h:code>umask</h:code> setting is configured correctly in the <h:code>/etc/bashrc</h:code> file by
-running the following command:
-<h:pre># grep "umask" /etc/bashrc</h:pre>
-All output must show the value of <h:code>umask</h:code> set to 077, as shown below:
-<h:pre># grep "umask" /etc/bashrc
-umask 077
-umask 077</h:pre>
-</check-content>
-            </check>
-          </Rule>
-          <Rule id="xccdf_org.ssgproject.content_rule_accounts_umask_cshrc" selected="false" severity="low">
-            <title xml:lang="en-US">Ensure the Default C Shell Umask is Set Correctly</title>
-            <description xml:lang="en-US">
-To ensure the default umask for users of the C shell is set properly,
-add or correct the <h:code>umask</h:code> setting in <h:code>/etc/csh.cshrc</h:code> to read as follows:
-<h:pre>umask 077<!-- <sub idref="var_accounts_user_umask" /> --></h:pre>
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf"/>
-            <reference href="http://iase.disa.mil/cci/index.html">366</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">swells</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20120929</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">The umask value influences the permissions assigned to files when they are created.
-A misconfigured umask value could result in files with excessive permissions that can be read or
-written to by unauthorized users.</rationale>
-            <ident system="http://cce.mitre.org">CCE-27034-8</ident>
-            <fix system="urn:xccdf:fix:script:sh">var_accounts_user_umask="<sub idref="xccdf_org.ssgproject.content_value_var_accounts_user_umask" use="legacy"/>"
-grep -q umask /etc/csh.cshrc &amp;&amp; \
-  sed -i "s/umask.*/umask $var_accounts_user_umask/g" /etc/csh.cshrc
-if ! [ $? -eq 0 ]; then
-    echo "umask $var_accounts_user_umask" &gt;&gt; /etc/csh.cshrc
-fi
-</fix>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-export export-name="oval:ssg:var:2218" value-id="xccdf_org.ssgproject.content_value_var_accounts_user_umask"/>
-              <check-content-ref name="oval:ssg:def:697" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="the above command returns no output, or if the umask is configured incorrectly" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-Verify the <h:code>umask</h:code> setting is configured correctly in the <h:code>/etc/csh.cshrc</h:code> file by
-running the following command:
-<h:pre># grep "umask" /etc/csh.cshrc</h:pre>
-All output must show the value of <h:code>umask</h:code> set to 077, as shown in the below:
-<h:pre># grep "umask" /etc/csh.cshrc
-umask 077</h:pre>
-</check-content>
-            </check>
-          </Rule>
-          <Rule id="xccdf_org.ssgproject.content_rule_accounts_umask_etc_profile" selected="false" severity="low">
-            <title xml:lang="en-US">Ensure the Default Umask is Set Correctly in /etc/profile</title>
-            <description xml:lang="en-US">
-To ensure the default umask controlled by <h:code>/etc/profile</h:code> is set properly,
-add or correct the <h:code>umask</h:code> setting in <h:code>/etc/profile</h:code> to read as follows:
-<h:pre>umask 077<!--<sub idref="var_accounts_user_umask" /> --></h:pre>
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf"/>
-            <reference href="http://iase.disa.mil/cci/index.html">366</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">swells</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20120929</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">The umask value influences the permissions assigned to files when they are created.
-A misconfigured umask value could result in files with excessive permissions that can be read or
-written to by unauthorized users.</rationale>
-            <ident system="http://cce.mitre.org">CCE-26669-2</ident>
-            <fix system="urn:xccdf:fix:script:sh">var_accounts_user_umask="<sub idref="xccdf_org.ssgproject.content_value_var_accounts_user_umask" use="legacy"/>"
-grep -q umask /etc/profile &amp;&amp; \
-  sed -i "s/umask.*/umask $var_accounts_user_umask/g" /etc/profile
-if ! [ $? -eq 0 ]; then
-    echo "umask $var_accounts_user_umask" &gt;&gt; /etc/profile
-fi
-</fix>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-export export-name="oval:ssg:var:2218" value-id="xccdf_org.ssgproject.content_value_var_accounts_user_umask"/>
-              <check-content-ref name="oval:ssg:def:738" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="the above command returns no output, or if the umask is configured incorrectly" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-Verify the <h:code>umask</h:code> setting is configured correctly in the <h:code>/etc/profile</h:code> file by
-running the following command:
-<h:pre># grep "umask" /etc/profile</h:pre>
-All output must show the value of <h:code>umask</h:code> set to 077, as shown in the below:
-<h:pre># grep "umask" /etc/profile
-umask 077</h:pre>
-</check-content>
-            </check>
-          </Rule>
           <Rule id="xccdf_org.ssgproject.content_rule_accounts_umask_login_defs" selected="false" severity="low">
             <title xml:lang="en-US">Ensure the Default Umask is Set Correctly in login.defs</title>
             <description xml:lang="en-US">
@@ -3717,424 +2606,6 @@ umask 077</h:pre>
             </check>
           </Rule>
         </Group>
-      </Group>
-      <Group id="xccdf_org.ssgproject.content_group_accounts-physical">
-        <title xml:lang="en-US">Protect Physical Console Access</title>
-        <description xml:lang="en-US">It is impossible to fully protect a system from an
-attacker with physical access, so securing the space in which the
-system is located should be considered a necessary step. However,
-there are some steps which, if taken, make it more difficult for an
-attacker to quickly or undetectably modify a system from its
-console.</description>
-        <Group id="xccdf_org.ssgproject.content_group_bootloader">
-          <title xml:lang="en-US">Set Boot Loader Password</title>
-          <description xml:lang="en-US">During the boot process, the boot loader is
-responsible for starting the execution of the kernel and passing
-options to it. The boot loader allows for the selection of
-different kernels - possibly on different partitions or media.
-The default RHEL boot loader for x86 systems is called GRUB.
-Options it can pass to the kernel include <h:i>single-user mode</h:i>, which
-provides root access without any authentication, and the ability to
-disable SELinux. To prevent local users from modifying the boot
-parameters and endangering security, protect the boot loader configuration
-with a password and ensure its configuration file's permissions
-are set properly.
-</description>
-          <Rule id="xccdf_org.ssgproject.content_rule_user_owner_grub_conf" selected="false" severity="medium">
-            <title xml:lang="en-US">Verify /etc/grub.conf User Ownership</title>
-            <description xml:lang="en-US">The file <h:code>/etc/grub.conf</h:code> should 
-be owned by the <h:code>root</h:code> user to prevent destruction 
-or modification of the file.
-
-    To properly set the owner of <h:code>/etc/grub.conf</h:code>, run the command:
-    <h:pre xml:space="preserve"># chown root/etc/grub.conf</h:pre>
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf"/>
-            <reference href="http://iase.disa.mil/cci/index.html">225</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">
-Only root should be able to modify important boot parameters.
-</rationale>
-            <ident system="http://cce.mitre.org">CCE-26995-1</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:1024" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-              
-    To check the ownership of <h:code>/etc/grub.conf</h:code>, run the command:
-    <h:pre>$ ls -lL /etc/grub.conf</h:pre>
-    If properly configured, the output should indicate the following owner:
-    <h:code>root</h:code>
-            </check-content>
-            </check>
-          </Rule>
-          <Rule id="xccdf_org.ssgproject.content_rule_group_owner_grub_conf" selected="false" severity="medium">
-            <title xml:lang="en-US">Verify /etc/grub.conf Group Ownership</title>
-            <description xml:lang="en-US">The file <h:code>/etc/grub.conf</h:code> should 
-be group-owned by the <h:code>root</h:code> group to prevent 
-destruction or modification of the file.
-
-    To properly set the group owner of <h:code>/etc/grub.conf</h:code>, run the command:
-    <h:pre xml:space="preserve"># chgrp root/etc/grub.conf</h:pre>
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf"/>
-            <reference href="http://iase.disa.mil/cci/index.html">225</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">
-The <h:code>root</h:code> group is a highly-privileged group. Furthermore, the group-owner of this
-file should not have any access privileges anyway.
-</rationale>
-            <ident system="http://cce.mitre.org">CCE-27022-3</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:1011" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-              
-    To check the group ownership of <h:code>/etc/grub.conf</h:code>, run the command:
-    <h:pre>$ ls -lL /etc/grub.conf</h:pre>
-    If properly configured, the output should indicate the following group-owner.
-    <h:code>root</h:code>
-            </check-content>
-            </check>
-          </Rule>
-          <Rule id="xccdf_org.ssgproject.content_rule_permissions_grub_conf" selected="false" severity="medium">
-            <title xml:lang="en-US">Verify /boot/grub/grub.conf Permissions</title>
-            <description xml:lang="en-US">File permissions for <h:code>/boot/grub/grub.conf</h:code> should be set to 600, which
-is the default.
-
-    To properly set the permissions of <h:code>/boot/grub/grub.conf</h:code>, run the command:
-    <h:pre xml:space="preserve"># chmod 600/boot/grub/grub.conf</h:pre>
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf"/>
-            <reference href="http://iase.disa.mil/cci/index.html">225</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">
-Proper permissions ensure that only the root user can modify important boot
-parameters.
-</rationale>
-            <ident system="http://cce.mitre.org">CCE-26949-8</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:1208" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-To check the permissions of /etc/grub.conf, run the command:
-<h:pre># ls -lL /etc/grub.conf</h:pre>
-If properly configured, the output should indicate the following 
-permissions: <h:code>-rw-------</h:code>
-</check-content>
-            </check>
-          </Rule>
-          <Rule id="xccdf_org.ssgproject.content_rule_bootloader_password" selected="false" severity="medium">
-            <title xml:lang="en-US">Set Boot Loader Password</title>
-            <description xml:lang="en-US">The grub boot loader should have password protection
-enabled to protect boot-time settings.
-To do so, select a password and then generate a hash from it by running the following command:
-<h:pre># grub-crypt --sha-512</h:pre>
-When prompted to enter a password, insert the following line into <h:code>/etc/grub.conf</h:code>
-immediately after the header comments. (Use the output from <h:code>grub-crypt</h:code> as the
-value of <h:b>password-hash</h:b>):
-<h:pre>password --encrypted <h:b>password-hash</h:b></h:pre>
-NOTE: To meet FISMA Moderate, the bootloader password MUST differ from the root password.
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-2(1)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(e)</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">213</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">
-Password protection on the boot loader configuration ensures
-users with physical access cannot trivially alter
-important bootloader settings. These include which kernel to use,
-and whether to enter single-user mode.
-</rationale>
-            <ident system="http://cce.mitre.org">CCE-26911-8</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:1020" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-To verify the boot loader password has been set and encrypted, run the following command:
-<h:pre># grep password /etc/grub.conf</h:pre>
-The output should show the following:
-<h:pre>password --encrypted <h:b>password-hash</h:b></h:pre>
-</check-content>
-            </check>
-          </Rule>
-        </Group>
-        <Rule id="xccdf_org.ssgproject.content_rule_require_singleuser_auth" selected="false" severity="medium">
-          <title xml:lang="en-US">Require Authentication for Single User Mode</title>
-          <description xml:lang="en-US">Single-user mode is intended as a system recovery
-method, providing a single user root access to the system by
-providing a boot option at startup. By default, no authentication
-is performed if single-user mode is selected.
-<h:br/><h:br/>
-To require entry of the root password even if the system is
-started in single-user mode, add or correct the following line in the
-file <h:code>/etc/sysconfig/init</h:code>:
-<h:pre>SINGLE=/sbin/sulogin</h:pre>
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-2(1)</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">213</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-This prevents attackers with physical access from trivially bypassing security
-on the machine and gaining root access. Such accesses are further prevented
-by configuring the bootloader password.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-27040-5</ident>
-          <fix system="urn:xccdf:fix:script:sh">grep -q ^SINGLE /etc/sysconfig/init &amp;&amp; \
-  sed -i "s/SINGLE.*/SINGLE=\/sbin\/sulogin/g" /etc/sysconfig/init
-if ! [ $? -eq 0 ]; then
-    echo "SINGLE=/sbin/sulogin" &gt;&gt; /etc/sysconfig/init
-fi
-</fix>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:1041" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the output is different" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To check if authentication is required for single-user mode, run the following command:
-<h:pre>$ grep SINGLE /etc/sysconfig/init</h:pre>
-The output should be the following:
-<h:pre>SINGLE=/sbin/sulogin</h:pre>
-</check-content>
-          </check>
-        </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_interactive_boot" selected="false" severity="medium">
-          <title xml:lang="en-US">Disable Interactive Boot</title>
-          <description xml:lang="en-US">
-To disable the ability for users to perform interactive startups,
-edit the file <h:code>/etc/sysconfig/init</h:code>.
-Add or correct the line:
-<h:pre>PROMPT=no</h:pre>
-The <h:code>PROMPT</h:code> option allows the console user to perform an
-interactive system startup, in which it is possible to select the
-set of services which are started on boot.
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">SC-2</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">213</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-Using interactive boot,
-the console user could disable auditing, firewalls, or other
-services, weakening system security.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-27043-9</ident>
-          <fix system="urn:xccdf:fix:script:sh">grep -q ^PROMPT /etc/sysconfig/init &amp;&amp; \
-  sed -i "s/PROMPT.*/PROMPT=no/g" /etc/sysconfig/init
-if ! [ $? -eq 0 ]; then
-    echo "PROMPT=no" &gt;&gt; /etc/sysconfig/init
-fi
-</fix>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:1096" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To check whether interactive boot is disabled, run the following command:
-<h:pre>$ grep PROMPT /etc/sysconfig/init</h:pre>
-If interactive boot is disabled, the output will show:
-<h:pre>PROMPT=no</h:pre>
-</check-content>
-          </check>
-        </Rule>
-        <Group id="xccdf_org.ssgproject.content_group_screen_locking">
-          <title xml:lang="en-US">Configure Screen Locking</title>
-          <description xml:lang="en-US">When a user must temporarily leave an account
-logged-in, screen locking should be employed to prevent passersby
-from abusing the account. User education and training is
-particularly important for screen locking to be effective, and policies
-can be implemented to reinforce this.
-<h:br/><h:br/>
-Automatic screen locking is only meant as a safeguard for
-those cases where a user forgot to lock the screen.</description>
-          <Group id="xccdf_org.ssgproject.content_group_gui_screen_locking">
-            <title xml:lang="en-US">Configure GUI Screen Locking</title>
-            <description xml:lang="en-US">In the default GNOME desktop, the screen can be locked
-by choosing <h:b>Lock Screen</h:b> from the <h:b>System</h:b> menu.
-<h:br/><h:br/>
-The <h:code>gconftool-2</h:code> program can be used to enforce mandatory
-screen locking settings for the default GNOME environment.
-The
-following sections detail commands to enforce idle activation of the screen saver,
-screen locking, a blank-screen screensaver, and an idle
-activation time.
-
-<h:br/><h:br/>
-Because users should be trained to lock the screen when they
-step away from the computer, the automatic locking feature is only
-meant as a backup. The Lock Screen icon from the System menu can
-also be dragged to the taskbar in order to facilitate even more
-convenient screen-locking.
-<h:br/><h:br/>
-The root account cannot be screen-locked, but this should
-<!-- TODO: is this still true? -->have no practical effect as the root account should <h:i>never</h:i> be used
-to log into an X Windows environment, and should only be used to
-for direct login via console in emergency circumstances.
-<h:br/><h:br/>
-For more information about configuring GNOME screensaver, see
-http://live.gnome.org/GnomeScreensaver. For more information about
-enforcing preferences in the GNOME environment using the GConf
-configuration system, see http://projects.gnome.org/gconf and
-the man page <h:code>gconftool-2(1)</h:code>.</description>
-            <Value id="xccdf_org.ssgproject.content_value_inactivity_timeout_value" operator="equals" type="number">
-              <title xml:lang="en-US">Inactivity timeout</title>
-              <description xml:lang="en-US">Choose allowed duration of inactive SSH connections, shells, and X sessions</description>
-              <value>15</value>
-              <value selector="5_minutes">5</value>
-              <value selector="10_minutes">10</value>
-              <value selector="15_minutes">15</value>
-            </Value>
-            <Rule id="xccdf_org.ssgproject.content_rule_set_screensaver_inactivity_timeout" selected="false" severity="medium">
-              <title xml:lang="en-US">Set GNOME Login Inactivity Timeout</title>
-              <description xml:lang="en-US">
-Run the following command to set the idle time-out value for
-inactivity in the GNOME desktop to 15 minutes:
-<h:pre># gconftool-2 \
-  --direct \
-  --config-source xml:readwrite:/etc/gconf/gconf.xml.mandatory \
-  --type int \
-  --set /desktop/gnome/session/idle_delay 15</h:pre>
-</description>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-11(a)</reference>
-              <reference href="http://iase.disa.mil/cci/index.html">57</reference>
-              <rationale xml:lang="en-US">
-Setting the idle delay controls when the
-screensaver will start, and can be combined with
-screen locking to prevent access from passersby.
-</rationale>
-              <ident system="http://cce.mitre.org">CCE-26828-4</ident>
-              <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-                <check-export export-name="oval:ssg:var:2234" value-id="xccdf_org.ssgproject.content_value_inactivity_timeout_value"/>
-                <check-content-ref name="oval:ssg:def:818" href="ssg-rhel6-oval.xml"/>
-              </check>
-              <check system="ocil-transitional">
-                <check-export export-name="it is not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-                <check-content>
-To check the current idle time-out value, run the following command:
-<h:pre>$ gconftool-2 -g /desktop/gnome/session/idle_delay</h:pre>
-If properly configured, the output should be <h:code>15</h:code>. 
-</check-content>
-              </check>
-            </Rule>
-            <Rule id="xccdf_org.ssgproject.content_rule_enable_screensaver_after_idle" selected="false" severity="medium">
-              <title xml:lang="en-US">GNOME Desktop Screensaver Mandatory Use</title>
-              <description xml:lang="en-US">
-Run the following command to activate the screensaver
-in the GNOME desktop after a period of inactivity:
-<h:pre># gconftool-2 --direct \
-  --config-source xml:readwrite:/etc/gconf/gconf.xml.mandatory \
-  --type bool \
-  --set /apps/gnome-screensaver/idle_activation_enabled true</h:pre>
-</description>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-11(a)</reference>
-              <reference href="http://iase.disa.mil/cci/index.html">57</reference>
-              <rationale xml:lang="en-US">
-Enabling idle activation of the screen saver ensures the screensaver will
-be activated after the idle delay.  Applications requiring continuous,
-real-time screen display (such as network management products) require the
-login session does not have administrator rights and the display station is located in a
-controlled-access area.
-</rationale>
-              <ident system="http://cce.mitre.org">CCE-26600-7</ident>
-              <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-                <check-content-ref name="oval:ssg:def:688" href="ssg-rhel6-oval.xml"/>
-              </check>
-              <check system="ocil-transitional">
-                <check-export export-name="it is not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-                <check-content>To check the screensaver mandatory use status, run the following command:
-<h:pre>$ gconftool-2 -g /apps/gnome-screensaver/idle_activation_enabled</h:pre>
-If properly configured, the output should be <h:code>true</h:code>.
-</check-content>
-              </check>
-            </Rule>
-            <Rule id="xccdf_org.ssgproject.content_rule_enable_screensaver_password_lock" selected="false" severity="medium">
-              <title xml:lang="en-US">Enable Screen Lock Activation After Idle Period</title>
-              <description xml:lang="en-US">
-Run the following command to activate locking of the screensaver
-in the GNOME desktop when it is activated:
-<h:pre># gconftool-2 --direct \
-  --config-source xml:readwrite:/etc/gconf/gconf.xml.mandatory \
-  --type bool \
-  --set /apps/gnome-screensaver/lock_enabled true</h:pre>
-</description>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-11(a)</reference>
-              <reference href="http://iase.disa.mil/cci/index.html">57</reference>
-              <rationale xml:lang="en-US">
-Enabling the activation of the screen lock after an idle period
-ensures password entry will be required in order to
-access the system, preventing access by passersby.
-</rationale>
-              <ident system="http://cce.mitre.org">CCE-26235-2</ident>
-              <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-                <check-content-ref name="oval:ssg:def:784" href="ssg-rhel6-oval.xml"/>
-              </check>
-              <check system="ocil-transitional">
-                <check-export export-name="it is not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-                <check-content>
-To check the status of the idle screen lock activation, run the following command:
-<h:pre>$ gconftool-2 -g /apps/gnome-screensaver/lock_enabled</h:pre>
-If properly configured, the output should be <h:code>true</h:code>.
-</check-content>
-              </check>
-            </Rule>
-            <Rule id="xccdf_org.ssgproject.content_rule_set_blank_screensaver" selected="false" severity="low">
-              <title xml:lang="en-US">Implement Blank Screen Saver</title>
-              <description xml:lang="en-US">
-Run the following command to set the screensaver mode
-in the GNOME desktop to a blank screen:
-<h:pre># gconftool-2 --direct \
-  --config-source xml:readwrite:/etc/gconf/gconf.xml.mandatory \
-  --type string \
-  --set /apps/gnome-screensaver/mode blank-only</h:pre>
-</description>
-              <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-11(b)</reference>
-              <reference href="http://iase.disa.mil/cci/index.html">60</reference>
-              <rationale xml:lang="en-US">
-Setting the screensaver mode to blank-only conceals the
-contents of the display from passersby.
-</rationale>
-              <ident system="http://cce.mitre.org">CCE-26638-7</ident>
-              <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-                <check-content-ref name="oval:ssg:def:685" href="ssg-rhel6-oval.xml"/>
-              </check>
-              <check system="ocil-transitional">
-                <check-export export-name="it is not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-                <check-content>
-To ensure the screensaver is configured to be blank, run the following command:
-<h:pre>$ gconftool-2 -g /apps/gnome-screensaver/mode</h:pre>
-If properly configured, the output should be <h:code>blank-only</h:code> 
-</check-content>
-              </check>
-            </Rule>
-          </Group>
-          </Group>
       </Group>
       <Group id="xccdf_org.ssgproject.content_group_accounts-banners">
         <title xml:lang="en-US">Warning Banners for System Accesses</title>
@@ -4232,50 +2703,6 @@ run the following command:
 </check-content>
           </check>
         </Rule>
-        <Group id="xccdf_org.ssgproject.content_group_gui_login_banner">
-          <title xml:lang="en-US">Implement a GUI Warning Banner</title>
-          <description xml:lang="en-US">In the default graphical environment, users logging
-directly into the system are greeted with a login screen provided
-by the GNOME Display Manager (GDM). The warning banner should be
-displayed in this graphical environment for these users.
-The following sections describe how to configure the GDM login
-banner.
-</description>
-          <Rule id="xccdf_org.ssgproject.content_rule_enable_gdm_login_banner" selected="false" severity="medium">
-            <title xml:lang="en-US">Enable GUI Warning Banner</title>
-            <description xml:lang="en-US">
-To enable displaying a login warning banner in the GNOME
-Display Manager's login screen, run the following command:
-<h:pre>sudo -u gdm gconftool-2 \
-  --type bool \
-  --set /apps/gdm/simple-greeter/banner_message_enable true</h:pre>
-To display a banner, this setting must be enabled and then
-banner text must also be set.
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-8(a)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-8(b)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-8(c)</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">48</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">50</reference>
-            <rationale xml:lang="en-US">
-An appropriate warning message reinforces policy awareness during the logon
-process and facilitates possible legal action against attackers.
-</rationale>
-            <ident system="http://cce.mitre.org">CCE-27195-7</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:1177" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="it is not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-To ensure a login warning banner is enabled, run the following:
-<h:pre>$ gconftool-2 -g /apps/gdm/simple-greeter/banner_message_enable</h:pre>
-Search for the <h:code>banner_message_enable</h:code> schema.
-If properly configured, the <h:code>default</h:code> value should be <h:code>true</h:code>.
-</check-content>
-            </check>
-          </Rule>
-          </Group>
         </Group>
     </Group>
     <Group id="xccdf_org.ssgproject.content_group_network">
@@ -4293,28 +2720,6 @@ traffic should be allowed or denied from certain IP addresses,
 hosts, and networks. The rules can also specify which of the
 system's network services are available to particular hosts or
 networks.</description>
-      <Rule id="xccdf_org.ssgproject.content_rule_network_disable_zeroconf" selected="false" severity="low">
-        <title xml:lang="en-US">Disable Zeroconf Networking</title>
-        <description xml:lang="en-US">Zeroconf networking allows the system to assign itself an IP
-address and engage in IP communication without a statically-assigned address or
-even a DHCP server. Automatic address assignment via Zeroconf (or DHCP) is not
-recommended. To disable Zeroconf automatic route assignment in the 169.254.0.0
-subnet, add or correct the following line in <h:code>/etc/sysconfig/network</h:code>:
-<h:pre>NOZEROCONF=yes</h:pre>
-</description>
-        <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-        <rationale xml:lang="en-US">Zeroconf addresses are in the network 169.254.0.0. The networking
-scripts add entries to the system's routing table for these addresses. Zeroconf
-address assignment commonly occurs when the system is configured to use DHCP
-but fails to receive an address assignment from the DHCP server.
-</rationale>
-        <ident system="http://cce.mitre.org">CCE-27151-0</ident>
-        <fix system="urn:xccdf:fix:script:sh">echo "NOZEROCONF=yes" &gt;&gt; /etc/sysconfig/network
-</fix>
-        <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-          <check-content-ref name="oval:ssg:def:184" href="ssg-rhel6-oval.xml"/>
-        </check>
-      </Rule>
       <Group id="xccdf_org.ssgproject.content_group_network-kernel">
         <title xml:lang="en-US">Kernel Parameters Which Affect Networking</title>
         <description xml:lang="en-US">The <h:code>sysctl</h:code> utility is used to set
@@ -5281,24 +3686,6 @@ through software. The following methods can disable software
 support for wireless networking, but note that these methods do not
 prevent malicious software or careless users from re-activating the
 devices.</description>
-          <Rule id="xccdf_org.ssgproject.content_rule_wireless_disable_in_bios" selected="false" severity="low">
-            <title xml:lang="en-US">Disable WiFi or Bluetooth BIOS</title>
-            <description xml:lang="en-US">Some systems that include built-in wireless support offer the
-ability to disable the device through the BIOS. This is system-specific;
-consult your hardware manual or explore the BIOS setup during
-boot.</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-17(8)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-18(a)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-18(d)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-18(3)</reference>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">85</reference>
-            <rationale xml:lang="en-US">Disabling wireless support in the BIOS prevents easy
-activation of the wireless interface, generally requiring administrators
-to reboot the system first.
-</rationale>
-            <ident system="http://cce.mitre.org">CCE-26878-9</ident>
-          </Rule>
           <Rule id="xccdf_org.ssgproject.content_rule_deactivate_wireless_interfaces" selected="false" severity="low">
             <title xml:lang="en-US">Deactivate Wireless Network Interfaces</title>
             <description xml:lang="en-US">Deactivating wireless network interfaces should prevent
@@ -5408,49 +3795,6 @@ even when only an IPv4 address is assigned. The only way to
 effectively prevent execution of the IPv6 networking stack is to
 instruct the system not to activate the IPv6 kernel module.
 </description>
-          <Rule id="xccdf_org.ssgproject.content_rule_kernel_module_ipv6_option_disabled" selected="false" severity="medium">
-            <title xml:lang="en-US">Disable IPv6 Networking Support Automatic Loading</title>
-            <description xml:lang="en-US">To prevent the IPv6 kernel module (<h:code>ipv6</h:code>) from loading the
-IPv6 networking stack, add the following line to
-<h:code>/etc/modprobe.d/disabled.conf</h:code> (or another file in
-<h:code>/etc/modprobe.d</h:code>):
-<h:pre>options ipv6 disable=1</h:pre>
-This permits the IPv6 module to be loaded (and thus satisfy other modules that
-depend on it), while disabling support for the IPv6 protocol.
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">1551</reference>
-            <reference href="test_attestation">
-              <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-              <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-            </reference>
-            <rationale xml:lang="en-US">
-Any unnecessary network stacks - including IPv6 - should be disabled, to reduce
-the vulnerability to exploitation.
-</rationale>
-            <ident system="http://cce.mitre.org">CCE-27153-6</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:289" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="the ipv6 kernel module is loaded" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-If the system uses IPv6, this is not applicable.
-<h:br/><h:br/>
-If the system is configured to prevent the loading of the
-<h:code>ipv6</h:code> kernel module, it will contain a line
-of the form:
-<h:pre>options ipv6 disable=1</h:pre>
-Such lines may be inside any file in <h:code>/etc/modprobe.d</h:code> or the
-deprecated<h:code>/etc/modprobe.conf</h:code>.  This permits insertion of the IPv6
-kernel module (which other parts of the system expect to be present), but
-otherwise keeps it inactive.  Run the following command to search for such
-lines in all files in <h:code>/etc/modprobe.d</h:code> and the deprecated
-<h:code>/etc/modprobe.conf</h:code>:
-<h:pre xml:space="preserve">$ grep -r ipv6 /etc/modprobe.conf /etc/modprobe.d</h:pre>
-</check-content>
-            </check>
-          </Rule>
           <Rule id="xccdf_org.ssgproject.content_rule_network_ipv6_disable_rpc" selected="false" severity="low">
             <title xml:lang="en-US">Disable Support for RPC IPv6</title>
             <description xml:lang="en-US">RPC services for NFSv4 try to load transport modules for
@@ -5593,115 +3937,6 @@ An illicit ICMP redirect message could result in a man-in-the-middle attack.
               </check>
             </Rule>
           </Group>
-          </Group>
-      </Group>
-      <Group id="xccdf_org.ssgproject.content_group_network-iptables">
-        <title xml:lang="en-US">iptables and ip6tables</title>
-        <description xml:lang="en-US">A host-based firewall called Netfilter is included as
-part of the Linux kernel distributed with the system. It is
-activated by default. This firewall is controlled by the program
-iptables, and the entire capability is frequently referred to by
-this name. An analogous program called ip6tables handles filtering
-for IPv6.
-<h:br/><h:br/>
-Unlike TCP Wrappers, which depends on the network server
-program to support and respect the rules written, Netfilter
-filtering occurs at the kernel level, before a program can even
-process the data from the network packet. As such, any program on
-the system is affected by the rules written.
-<h:br/><h:br/>
-This section provides basic information about strengthening
-the iptables and ip6tables configurations included with the system.
-For more complete information that may allow the construction of a
-sophisticated ruleset tailored to your environment, please consult
-the references at the end of this section.</description>
-        <Group id="xccdf_org.ssgproject.content_group_ruleset_modifications">
-          <title xml:lang="en-US">Strengthen the Default Ruleset</title>
-          <description xml:lang="en-US">The default rules can be strengthened. The system
-scripts that activate the firewall rules expect them to be defined
-in the configuration files iptables and ip6tables in the directory
-<h:code>/etc/sysconfig</h:code>. Many of the lines in these files are similar
-to the command line arguments that would be provided to the programs
-<h:code>/sbin/iptables</h:code> or <h:code>/sbin/ip6tables</h:code> - but some are quite
-different.
-<h:br/><h:br/>
-The following recommendations describe how to strengthen the
-default ruleset configuration file. An alternative to editing this
-configuration file is to create a shell script that makes calls to
-the iptables program to load in rules, and then invokes service
-iptables save to write those loaded rules to
-<h:code>/etc/sysconfig/iptables.</h:code>
-<h:br/><h:br/>
-The following alterations can be made directly to
-<h:code>/etc/sysconfig/iptables</h:code> and <h:code>/etc/sysconfig/ip6tables</h:code>.
-Instructions apply to both unless otherwise noted. Language and address
-conventions for regular iptables are used throughout this section;
-configuration for ip6tables will be either analogous or explicitly
-covered.</description>
-          <warning xml:lang="en-US" override="false" category="general">The program <h:code>system-config-securitylevel</h:code>
-allows additional services to penetrate the default firewall rules
-and automatically adjusts <h:code>/etc/sysconfig/iptables</h:code>. This program
-is only useful if the default ruleset meets your security
-requirements. Otherwise, this program should not be used to make
-changes to the firewall configuration because it re-writes the
-saved configuration file.</warning>
-          <Rule id="xccdf_org.ssgproject.content_rule_set_iptables_default_rule" selected="false" severity="medium">
-            <title xml:lang="en-US">Set Default iptables Policy for Incoming Packets</title>
-            <description xml:lang="en-US">To set the default policy to DROP (instead of ACCEPT) for
-the built-in INPUT chain which processes incoming packets,
-add or correct the following line in
-<h:code>/etc/sysconfig/iptables</h:code>:
-<h:pre>:INPUT DROP [0:0]</h:pre>
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">66</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">1109</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">1154</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">1414</reference>
-            <rationale xml:lang="en-US">In <h:code>iptables</h:code> the default policy is applied only after all
-the applicable rules in the table are examined for a match. Setting the
-default policy to <h:code>DROP</h:code> implements proper design for a firewall, i.e.
-any packets which are not explicitly permitted should not be
-accepted.</rationale>
-            <ident system="http://cce.mitre.org">CCE-26444-0</ident>
-            <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-              <check-content-ref name="oval:ssg:def:378" href="ssg-rhel6-oval.xml"/>
-            </check>
-            <check system="ocil-transitional">
-              <check-export export-name="the default policy for the INPUT chain is not set to DROP" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>Inspect the file <h:code>/etc/sysconfig/iptables</h:code> to determine
-the default policy for the INPUT chain. It should be set to DROP:
-<h:pre> # grep ":INPUT" /etc/sysconfig/iptables</h:pre>
-</check-content>
-            </check>
-          </Rule>
-          <Rule id="xccdf_org.ssgproject.content_rule_set_iptables_default_rule_forward" selected="false" severity="medium">
-            <title xml:lang="en-US">Set Default iptables Policy for Forwarded Packets</title>
-            <description xml:lang="en-US">To set the default policy to DROP (instead of ACCEPT) for
-the built-in FORWARD chain which processes packets that will be forwarded from
-one interface to another,
-add or correct the following line in
-<h:code>/etc/sysconfig/iptables</h:code>:
-<h:pre>:FORWARD DROP [0:0]</h:pre>
-</description>
-            <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-            <reference href="http://iase.disa.mil/cci/index.html">1109</reference>
-            <rationale xml:lang="en-US">In <h:code>iptables</h:code> the default policy is applied only after all
-the applicable rules in the table are examined for a match. Setting the
-default policy to <h:code>DROP</h:code> implements proper design for a firewall, i.e.
-any packets which are not explicitly permitted should not be
-accepted.</rationale>
-            <ident system="http://cce.mitre.org">CCE-27186-6</ident>
-            <check system="ocil-transitional">
-              <check-export export-name="the default policy for the FORWARD chain is not set to DROP" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-              <check-content>
-Run the following command to ensure the default <h:code>FORWARD</h:code> policy is <h:code>DROP</h:code>:
-<h:pre>grep ":FORWARD" /etc/sysconfig/iptables</h:pre>
-The output should be similar to the following:
-<h:pre># grep ":FORWARD" /etc/sysconfig/iptables
-:FORWARD DROP [0:0</h:pre></check-content>
-            </check>
-          </Rule>
           </Group>
       </Group>
       <Group id="xccdf_org.ssgproject.content_group_network-uncommon">
@@ -5978,43 +4213,6 @@ To see the owner of a given log file, run the following command:
 </check-content>
           </check>
         </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_groupowner_rsyslog_files" selected="false" severity="medium">
-          <title xml:lang="en-US">Ensure Log Files Are Owned By Appropriate Group</title>
-          <description xml:lang="en-US">The group-owner of all log files written by
-<h:code>rsyslog</h:code> should be root.
-These log files are determined by the second part of each Rule line in
-<h:code>/etc/rsyslog.conf</h:code> and typically all appear in <h:code>/var/log</h:code>. 
-For each log file <h:i>LOGFILE</h:i> referenced in <h:code>/etc/rsyslog.conf</h:code>,
-run the following command to inspect the file's group owner:
-<h:pre>$ ls -l <h:i>LOGFILE</h:i></h:pre>
-If the owner is not <h:code>root</h:code>, run the following command to
-correct this:
-<h:pre># chgrp root <h:i>LOGFILE</h:i></h:pre>
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-6</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1314</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">The log files generated by rsyslog contain valuable information regarding system
-configuration, user authentication, and other such information. Log files should be
-protected from unauthorized access.</rationale>
-          <ident system="http://cce.mitre.org">CCE-26821-9</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:502" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the group-owner is not root" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-The group-owner of all log files written by <h:code>rsyslog</h:code> should be root.
-These log files are determined by the second part of each Rule line in
-<h:code>/etc/rsyslog.conf</h:code> and typically all appear in <h:code>/var/log</h:code>. 
-To see the group-owner of a given log file, run the following command:
-<h:pre>$ ls -l <h:i>LOGFILE</h:i></h:pre>
-</check-content>
-          </check>
-        </Rule>
         <Rule id="xccdf_org.ssgproject.content_rule_rsyslog_file_permissions" selected="false" severity="medium">
           <title xml:lang="en-US">Ensure System Log Files Have Correct Permissions</title>
           <description xml:lang="en-US">The file permissions for all log files written by
@@ -6278,42 +4476,6 @@ the process, which in this case, is <h:code>exe="/usr/sbin/httpd"</h:code>.
 </h:li></h:ul>
 </h:li></h:ul>
 </description>
-      <Rule id="xccdf_org.ssgproject.content_rule_enable_auditd_bootloader" selected="false" severity="medium">
-        <title xml:lang="en-US">Enable Auditing for Processes Which Start Prior to the Audit Daemon</title>
-        <description xml:lang="en-US">To ensure all processes can be audited, even
-those which start prior to the audit daemon, add the argument
-<h:code>audit=1</h:code> to the kernel line in <h:code>/etc/grub.conf</h:code>, in the manner below:
-<h:pre>kernel /vmlinuz-version ro vga=ext root=/dev/VolGroup00/LogVol00 rhgb quiet audit=1</h:pre>
-</description>
-        <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-17(1)</reference>
-        <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AU-1(b)</reference>
-        <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AU-2(a)</reference>
-        <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AU-2(c)</reference>
-        <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AU-2(d)</reference>
-        <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AU-10</reference>
-        <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IR-5</reference>
-        <reference href="http://iase.disa.mil/cci/index.html">1464</reference>
-        <reference href="http://iase.disa.mil/cci/index.html">130</reference>
-        <rationale xml:lang="en-US">
-Each process on the system carries an "auditable" flag which
-indicates whether its activities can be audited. Although <h:code>auditd</h:code>
-takes care of enabling this for all processes which launch after it
-does, adding the kernel argument ensures it is set for every
-process during boot.
-</rationale>
-        <ident system="http://cce.mitre.org">CCE-26785-6</ident>
-        <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-          <check-content-ref name="oval:ssg:def:1031" href="ssg-rhel6-oval.xml"/>
-        </check>
-        <check system="ocil-transitional">
-          <check-export export-name="auditing is not enabled at boot time" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-          <check-content>
-Inspect the kernel boot arguments (which follow the word <h:code>kernel</h:code>) in
-<h:code>/etc/grub.conf</h:code>. If they include <h:code>audit=1</h:code>, then
-auditing is enabled at boot time.
-</check-content>
-        </check>
-      </Rule>
       <Group id="xccdf_org.ssgproject.content_group_auditd_configure_rules">
         <title xml:lang="en-US">Configure auditd Rules for Comprehensive Auditing</title>
         <description xml:lang="en-US">The <h:code>auditd</h:code> program can perform comprehensive
@@ -6411,175 +4573,11 @@ the service as much as possible, for instance by configuring host
 firewall software such as <h:code>iptables</h:code> to restrict access to the
 vulnerable service to only those remote hosts which have a known
 need to use it.</description>
-      <Group id="xccdf_org.ssgproject.content_group_telnet">
-        <title xml:lang="en-US">Telnet</title>
-        <description xml:lang="en-US">The telnet protocol does not provide confidentiality or integrity
-for information transmitted on the network. This includes authentication
-information such as passwords. Organizations which use telnet should be
-actively working to migrate to a more secure protocol.</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_telnet_service" selected="false" severity="high">
-          <title xml:lang="en-US">Disable telnet Service</title>
-          <description xml:lang="en-US">
-            
-    The <h:code>telnet</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig telnet off</h:pre>
-          </description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-17(8)</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(1)(c)</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">68</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1436</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">197</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">877</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">888</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-The telnet protocol uses unencrypted network communication, which
-means that data from the login session, including passwords and
-all other information transmitted during the session, can be
-stolen by eavesdroppers on the network. The telnet protocol is also
-subject to man-in-the-middle attacks.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26836-7</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:664" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-      To check that the <h:code>telnet</h:code> service is disabled in system boot configuration, run the following command:
-          <h:pre># chkconfig <h:code>telnet</h:code> --list</h:pre>
-              Output should indicate the <h:code>telnet</h:code> service has either not been installed, or has been disabled, as shown in the example below:
-              <h:pre># chkconfig <h:code>telnet</h:code> --list
-<h:code>telnet</h:code>       off</h:pre>
-          </check-content>
-          </check>
-        </Rule>
-        </Group>
       <Group id="xccdf_org.ssgproject.content_group_r_services">
         <title xml:lang="en-US">Rlogin, Rsh, and Rexec</title>
         <description xml:lang="en-US">The Berkeley r-commands are legacy services which
 allow cleartext remote access and have an insecure trust
 model.</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_rexec" selected="false" severity="high">
-          <title xml:lang="en-US">Disable rexec Service</title>
-          <description xml:lang="en-US">The <h:code>rexec</h:code> service, which is available with
-the <h:code>rsh-server</h:code> package and runs as a service through xinetd,
-should be disabled.
-
-    The <h:code>rexec</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig rexec off</h:pre>
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-17(8)</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">68</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1436</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">The rexec service uses unencrypted network communications, which
-means that data from the login session, including passwords and
-all other information transmitted during the session, can be
-stolen by eavesdroppers on the network.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-27208-8</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:864" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-      To check that the <h:code>rexec</h:code> service is disabled in system boot configuration, run the following command:
-          <h:pre># chkconfig <h:code>rexec</h:code> --list</h:pre>
-              Output should indicate the <h:code>rexec</h:code> service has either not been installed, or has been disabled, as shown in the example below:
-              <h:pre># chkconfig <h:code>rexec</h:code> --list
-<h:code>rexec</h:code>       off</h:pre>
-          </check-content>
-          </check>
-        </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_rsh" selected="false" severity="high">
-          <title xml:lang="en-US">Disable rsh Service</title>
-          <description xml:lang="en-US">The <h:code>rsh</h:code> service, which is available with
-the <h:code>rsh-server</h:code> package and runs as a service through xinetd,
-should be disabled.
-
-    The <h:code>rsh</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig rsh off</h:pre>
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-17(8)</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(1)(c)</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">68</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1436</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">The rsh service uses unencrypted network communications, which
-means that data from the login session, including passwords and
-all other information transmitted during the session, can be
-stolen by eavesdroppers on the network.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26994-4</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:770" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-      To check that the <h:code>rsh</h:code> service is disabled in system boot configuration, run the following command:
-          <h:pre># chkconfig <h:code>rsh</h:code> --list</h:pre>
-              Output should indicate the <h:code>rsh</h:code> service has either not been installed, or has been disabled, as shown in the example below:
-              <h:pre># chkconfig <h:code>rsh</h:code> --list
-<h:code>rsh</h:code>       off</h:pre>
-          </check-content>
-          </check>
-        </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_rlogin" selected="false" severity="high">
-          <title xml:lang="en-US">Disable rlogin Service</title>
-          <description xml:lang="en-US">The <h:code>rlogin</h:code> service, which is available with
-the <h:code>rsh-server</h:code> package and runs as a service through xinetd,
-should be disabled.
-
-    The <h:code>rlogin</h:code> service can be disabled with the following command:
-    <h:pre># chkconfig rlogin off</h:pre>
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-17(8)</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(1)(c)</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1436</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121026</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">The rlogin service uses unencrypted network communications, which
-means that data from the login session, including passwords and
-all other information transmitted during the session, can be
-stolen by eavesdroppers on the network.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26865-6</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:303" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the service is running" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-      To check that the <h:code>rlogin</h:code> service is disabled in system boot configuration, run the following command:
-          <h:pre># chkconfig <h:code>rlogin</h:code> --list</h:pre>
-              Output should indicate the <h:code>rlogin</h:code> service has either not been installed, or has been disabled, as shown in the example below:
-              <h:pre># chkconfig <h:code>rlogin</h:code> --list
-<h:code>rlogin</h:code>       off</h:pre>
-          </check-content>
-          </check>
-        </Rule>
         <Rule id="xccdf_org.ssgproject.content_rule_no_rsh_trust_files" selected="false" severity="high">
           <title xml:lang="en-US">Remove Rsh Trust Files</title>
           <description xml:lang="en-US">The files <h:code>/etc/hosts.equiv</h:code> and <h:code>~/.rhosts</h:code> (in
@@ -6675,94 +4673,6 @@ should not be used.
 To check which SSH protocol version is allowed, run the following command:
 <h:pre># grep Protocol /etc/ssh/sshd_config</h:pre>
 If configured properly, output should be <h:pre>Protocol 2</h:pre>
-</check-content>
-          </check>
-        </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_sshd_set_idle_timeout" selected="false" severity="low">
-          <title xml:lang="en-US">Set SSH Idle Timeout Interval</title>
-          <description xml:lang="en-US">SSH allows administrators to set an idle timeout
-interval.
-After this interval has passed, the idle user will be
-automatically logged out.
-<h:br/><h:br/>
-To set an idle timeout interval, edit the following line in <h:code>/etc/ssh/sshd_config</h:code> as
-follows:
-<h:pre>ClientAliveInterval <h:b>interval</h:b></h:pre>
-The timeout <h:b>interval</h:b> is given in seconds. To have a timeout
-of 15 minutes, set <h:b>interval</h:b> to 900.
-<h:br/><h:br/>
-If a shorter timeout has already been set for the login
-shell, that value will preempt any SSH
-setting made here. Keep in mind that some processes may stop SSH
-from correctly detecting that the user is idle.
-</description>
-          <reference href="http://iase.disa.mil/cci/index.html">879</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1133</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-Causing idle users to be automatically logged out
-guards against compromises one system leading trivially
-to compromises on another.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26919-1</ident>
-          <fix system="urn:xccdf:fix:script:sh">sshd_idle_timeout_value="<sub idref="xccdf_org.ssgproject.content_value_sshd_idle_timeout_value" use="legacy"/>"
-grep -q ^ClientAliveInterval /etc/ssh/sshd_config &amp;&amp; \
-  sed -i "s/ClientAliveInterval.*/ClientAliveInterval $sshd_idle_timeout_value/g" /etc/ssh/sshd_config
-if ! [ $? -eq 0 ]; then
-    echo "ClientAliveInterval $sshd_idle_timeout_value" &gt;&gt; /etc/ssh/sshd_config
-fi
-</fix>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-export export-name="oval:ssg:var:2219" value-id="xccdf_org.ssgproject.content_value_sshd_idle_timeout_value"/>
-            <check-content-ref name="oval:ssg:def:137" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="it is not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-Run the following command to see what the timeout interval is:
-<h:pre># grep ClientAliveInterval /etc/ssh/sshd_config</h:pre>
-If properly configured, the output should be:
-<h:pre>ClientAliveInterval 900</h:pre>
-</check-content>
-          </check>
-        </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_sshd_set_keepalive" selected="false" severity="low">
-          <title xml:lang="en-US">Set SSH Client Alive Count</title>
-          <description xml:lang="en-US">To ensure the SSH idle timeout occurs precisely when the <h:code>ClientAliveCountMax</h:code> is set,
-edit <h:code>/etc/ssh/sshd_config</h:code> as
-follows:
-<h:pre>ClientAliveCountMax 0</h:pre>
-</description>
-          <reference href="http://iase.disa.mil/cci/index.html">879</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1133</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-This ensures a user login will be terminated as soon as the <h:code>ClientAliveCountMax</h:code>
-is reached.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26282-4</ident>
-          <fix system="urn:xccdf:fix:script:sh">grep -q ^ClientAliveCountMax /etc/ssh/sshd_config &amp;&amp; \
-  sed -i "s/ClientAliveCountMax.*/ClientAliveCountMax 0/g" /etc/ssh/sshd_config
-if ! [ $? -eq 0 ]; then
-    echo "ClientAliveCountMax 0" &gt;&gt; /etc/ssh/sshd_config
-fi
-</fix>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:479" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="it is not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To ensure the SSH idle timeout will occur when the <h:code>ClientAliveCountMax</h:code> is set, run the following command:
-<h:pre># grep ClientAliveCountMax /etc/ssh/sshd_config</h:pre>
-If properly configured, output should be:
-<h:pre>ClientAliveCountMax 0</h:pre>
 </check-content>
           </check>
         </Rule>
@@ -6938,174 +4848,6 @@ fi
           </check-content>
           </check>
         </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_sshd_enable_warning_banner" selected="false" severity="medium">
-          <title xml:lang="en-US">Enable SSH Warning Banner</title>
-          <description xml:lang="en-US">
-To enable the warning banner and ensure it is consistent
-across the system, add or correct the following line in <h:code>/etc/ssh/sshd_config</h:code>:
-<h:pre>Banner /etc/issue</h:pre>
-Another section contains information on how to create an
-appropriate system-wide warning banner.
-</description>
-          <reference href="http://iase.disa.mil/cci/index.html">48</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-The warning message reinforces policy awareness during the logon process and
-facilitates possible legal action against attackers.  Alternatively, systems
-whose ownership should not be obvious should ensure usage of a banner that does
-not provide easy attribution.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-27112-2</ident>
-          <fix system="urn:xccdf:fix:script:sh">grep -q ^Banner /etc/ssh/sshd_config &amp;&amp; \
-  sed -i "s/Banner.*/Banner \/etc\/issue/g" /etc/ssh/sshd_config
-if ! [ $? -eq 0 ]; then
-    echo "Banner /etc/issue" &gt;&gt; /etc/ssh/sshd_config
-fi
-</fix>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:545" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="the required value is not set" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-            
-    To determine how the SSH daemon's
-    <h:code>Banner</h:code>
-    option is set, run the following command:
-    <h:pre xml:space="preserve"># grep -i Banner /etc/ssh/sshd_config</h:pre>
-      If a line indicating /etc/issue is returned, then the required value is set.
-    
-          </check-content>
-          </check>
-        </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_sshd_do_not_permit_user_env" selected="false" severity="low">
-          <title xml:lang="en-US">Do Not Allow SSH Environment Options</title>
-          <description xml:lang="en-US">To ensure users are not able to present
-environment options to the SSH daemon, add or correct the following line
-in <h:code>/etc/ssh/sshd_config</h:code>:
-<h:pre>PermitUserEnvironment no</h:pre>
-</description>
-          <reference href="http://iase.disa.mil/cci/index.html">1414</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-SSH environment options potentially allow users to bypass
-access restriction in some configurations.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-27201-3</ident>
-          <fix system="urn:xccdf:fix:script:sh">grep -q ^PermitUserEnvironment /etc/ssh/sshd_config &amp;&amp; \
-  sed -i "s/PermitUserEnvironment.*/PermitUserEnvironment no/g" /etc/ssh/sshd_config
-if ! [ $? -eq 0 ]; then
-    echo "PermitUserEnvironment no" &gt;&gt; /etc/ssh/sshd_config
-fi
-</fix>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:444" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="it is not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To ensure users are not able to present environment daemons, run the following command:
-<h:pre># grep PermitUserEnvironment /etc/ssh/sshd_config</h:pre>
-If properly configured, output should be:
-<h:pre>PermitUserEnvironment no</h:pre>
-</check-content>
-          </check>
-        </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_sshd_use_approved_ciphers" selected="false" severity="medium">
-          <title xml:lang="en-US">Use Only Approved Ciphers</title>
-          <description xml:lang="en-US">Limit the ciphers to those algorithms which are FIPS-approved.
-Counter (CTR) mode is also preferred over cipher-block chaining (CBC) mode.
-The following line in <h:code>/etc/ssh/sshd_config</h:code>
-demonstrates use of FIPS-approved ciphers:
-<h:pre>Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc,aes192-cbc,aes256-cbc</h:pre>
-The man page <h:code>sshd_config(5)</h:code> contains a list of supported ciphers.
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-3</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AC-17(2)</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">AU-10(5)</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-5(1)(c)</reference>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">IA-7</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">803</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1144</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1145</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1146</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">
-Approved algorithms should impart some level of confidence in their
-implementation. These are also required for compliance.
-</rationale>
-          <ident system="http://cce.mitre.org">CCE-26555-3</ident>
-          <fix system="urn:xccdf:fix:script:sh">grep -q ^Ciphers /etc/ssh/sshd_config &amp;&amp; \
-  sed -i "s/Ciphers.*/Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc,aes192-cbc,aes256-cbc/g" /etc/ssh/sshd_config
-if ! [ $? -eq 0 ]; then
-    echo "Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc,aes192-cbc,aes256-cbc" &gt;&gt; /etc/ssh/sshd_config
-fi
-</fix>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:995" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="that is not the case" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-Only FIPS-approved ciphers should be used.  To verify that only FIPS-approved 
-ciphers are in use, run the following command:
-<h:pre># grep Ciphers /etc/ssh/sshd_config</h:pre>
-The output should contain only those ciphers which are FIPS-approved, namely, the 
-AES and 3DES ciphers.
-</check-content>
-          </check>
-        </Rule>
-        </Group>
-    </Group>
-    <Group id="xccdf_org.ssgproject.content_group_xwindows">
-      <title xml:lang="en-US">X Window System</title>
-      <description xml:lang="en-US">The X Window System implementation included with the
-system is called X.org.</description>
-      <Group id="xccdf_org.ssgproject.content_group_disabling_xwindows">
-        <title xml:lang="en-US">Disable X Windows</title>
-        <description xml:lang="en-US">Unless there is a mission-critical reason for the
-system to run a graphical user interface, ensure X is not set to start
-automatically at boot and remove the X Windows software packages.
-There is usually no reason to run X Windows
-on a dedicated server machine, as it increases the system's attack surface and consumes
-system resources. Administrators of server systems should instead login via
-SSH or on the text console.</description>
-        <Rule id="xccdf_org.ssgproject.content_rule_disable_xwindows_with_runlevel" selected="false" severity="low">
-          <title xml:lang="en-US">Disable X Windows Startup By Setting Runlevel</title>
-          <description xml:lang="en-US">Setting the system's runlevel to 3 will prevent automatic startup
-of the X server. To do so, ensure the following line in <h:code>/etc/inittab</h:code>
-features a <h:code>3</h:code> as shown:
-<h:pre>id:3:initdefault:</h:pre>
-</description>
-          <reference href="http://iase.disa.mil/cci/index.html">366</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121025</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">Unnecessary services should be disabled to decrease the attack surface of the system.</rationale>
-          <ident system="http://cce.mitre.org">CCE-27119-7</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:560" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="it does not" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To verify the default runlevel is 3, run the following command:
-<h:pre># grep initdefault /etc/inittab</h:pre>
-The output should show the following:
-<h:pre>id:3:initdefault:</h:pre>
-</check-content>
-          </check>
-        </Rule>
         </Group>
     </Group>
     <Group id="xccdf_org.ssgproject.content_group_ntp">
@@ -7229,96 +4971,6 @@ and not from the network, which protects it from network attack.
 Run the following command to ensure postfix accepts mail messages from only the local system:
 <h:pre>$ grep inet_interfaces /etc/postfix/main.cf</h:pre>
 If properly configured, the output should show only <h:code>localhost</h:code>.
-</check-content>
-          </check>
-        </Rule>
-      </Group>
-      </Group>
-    <Group id="xccdf_org.ssgproject.content_group_ldap">
-      <title xml:lang="en-US">LDAP</title>
-      <description xml:lang="en-US">LDAP is a popular directory service, that is, a
-standardized way of looking up information from a central database.
-RHEL 6 includes software that enables a system to act as both
-an LDAP client and server.
-</description>
-      <Group id="xccdf_org.ssgproject.content_group_openldap_client">
-        <title xml:lang="en-US">Configure OpenLDAP Clients</title>
-        <description xml:lang="en-US">This section provides information on which security settings are
-important to configure in OpenLDAP clients by manually editing the appropriate
-configuration files.  RHEL 6 provides an automated configuration tool called
-authconfig and a graphical wrapper for authconfig called
-<h:code>system-config-authentication</h:code>. However, these tools do not provide as
-much control over configuration as manual editing of configuration files. The
-authconfig tools do not allow you to specify locations of SSL certificate
-files, which is useful when trying to use SSL cleanly across several protocols.
-Installation and configuration of OpenLDAP on RHEL 6 is available at
-https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Deployment_Guide/ch-Directory_Servers.html.
-</description>
-        <warning xml:lang="en-US" override="false" category="general">Before configuring any system to be an
-LDAP client, ensure that a working LDAP server is present on the
-network.</warning>
-        <Rule id="xccdf_org.ssgproject.content_rule_ldap_client_start_tls" selected="false" severity="medium">
-          <title xml:lang="en-US">Configure LDAP Client to Use TLS For All Transactions</title>
-          <description xml:lang="en-US">Configure LDAP to enforce TLS use. First, edit the file 
-<h:code>/etc/pam_ldap.conf</h:code>, and add or correct the following lines:
-<h:pre>ssl start_tls</h:pre>
-Then review the LDAP server and ensure TLS has been configured.
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">776</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">778</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1453</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">The ssl directive specifies whether to use ssl or not. If
-not specified it will default to no. It should be set to start_tls rather
-than doing LDAP over SSL.</rationale>
-          <ident system="http://cce.mitre.org">CCE-26690-8</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:928" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="no lines are returned" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To ensure LDAP is configured to use TLS for all transactions, run the following command:
-<h:pre>$ grep start_tls /etc/pam_ldap.conf</h:pre>
-</check-content>
-          </check>
-        </Rule>
-        <Rule id="xccdf_org.ssgproject.content_rule_ldap_client_tls_cacertpath" selected="false" severity="medium">
-          <title xml:lang="en-US">Configure Certificate Directives for LDAP Use of TLS</title>
-          <description xml:lang="en-US">Ensure a copy of a trusted CA certificate has been placed in
-the file <h:code>/etc/pki/tls/CA/cacert.pem</h:code>. Configure LDAP to enforce TLS 
-use and to trust certificates signed by that CA. First, edit the file 
-<h:code>/etc/pam_ldap.conf</h:code>, and add or correct either of the following lines:
-<h:pre>tls_cacertdir /etc/pki/tls/CA</h:pre>
-or
-<h:pre>tls_cacertfile /etc/pki/tls/CA/cacert.pem</h:pre>
-Then review the LDAP server and ensure TLS has been configured.
-</description>
-          <reference href="http://csrc.nist.gov/publications/nistpubs/800-53-Rev3/sp800-53-rev3-final.pdf">CM-7</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">776</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">778</reference>
-          <reference href="http://iase.disa.mil/cci/index.html">1453</reference>
-          <reference href="test_attestation">
-            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">DS</dc:contributor>
-            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">20121024</dc:date>
-          </reference>
-          <rationale xml:lang="en-US">The tls_cacertdir or tls_cacertfile directives are required when
-tls_checkpeer is configured (which is the default for openldap versions 2.1 and
-up). These directives define the path to the trust certificates signed by the
-site CA.</rationale>
-          <ident system="http://cce.mitre.org">CCE-27189-0</ident>
-          <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
-            <check-content-ref name="oval:ssg:def:597" href="ssg-rhel6-oval.xml"/>
-          </check>
-          <check system="ocil-transitional">
-            <check-export export-name="there is no output, or the lines are commented out" value-id="xccdf_org.ssgproject.content_value_conditional_clause"/>
-            <check-content>
-To ensure TLS is configured with trust certificates, run the following command:
-<h:pre># grep cert /etc/pam_ldap.conf</h:pre>
 </check-content>
           </check>
         </Rule>
