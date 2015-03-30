@@ -1,5 +1,5 @@
 prereqs:
-	sudo apt-get install git wget unzip
+	sudo apt-get install git wget unzip expat
 
 # This build target clones the SSG repository and runs its make command
 # to build the RHEL6 tests. We are using just their OVAL file.
